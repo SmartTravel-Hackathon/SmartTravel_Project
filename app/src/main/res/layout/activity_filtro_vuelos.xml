@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Filtro_Vuelos">
+
+    <TextView
+        android:id="@+id/textFiltros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/Filtros"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/x" />
+
+    <RadioButton
+        android:id="@+id/sinEscalasButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textFiltros"
+        android:layout_centerInParent="true"
+        android:text="@string/SinEscalas"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/unaEscalaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sinEscalasButton"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:text="@string/UnaEscala" />
+
+    <RadioButton
+        android:id="@+id/masDeUnaEscalaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unaEscalaButton"
+        android:layout_centerInParent="true"
+        android:text="@string/MasDeUnaEscala"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/masDeUnaEscalaButton"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textAerolineas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco"
+        android:layout_centerInParent="true"
+        android:text="@string/Aerolineas"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/aviancaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAerolineas"
+        android:layout_centerInParent="true"
+        android:text="@string/Avianca"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/copaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aviancaButton"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:text="@string/Copa" />
+
+    <RadioButton
+        android:id="@+id/latamButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/copaButton"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:text="@string/Latam" />
+
+    <RadioButton
+        android:id="@+id/wingoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latamButton"
+        android:layout_centerInParent="true"
+        android:text="@string/Wingo"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/blanco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wingoButton"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rangoPrecios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco2"
+        android:layout_centerInParent="true"
+        android:text="@string/RangoPrecios"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPrecios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rangoPrecios"
+        android:textSize="18sp"
+        android:text="@string/Precios" />
+
+    <TextView
+        android:id="@+id/blanco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/checkBoxPrecios"
+        android:textSize="20sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textHorarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco3"
+        android:layout_centerInParent="true"
+        android:text="@string/Horarios"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/antesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textHorarios"
+        android:layout_centerInParent="true"
+        android:text="@string/AntesHora"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/seisAMButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antesButton"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:text="@string/EntreHoras" />
+
+</RelativeLayout>

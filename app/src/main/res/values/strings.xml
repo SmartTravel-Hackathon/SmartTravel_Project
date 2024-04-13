@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Hackaton</string>
+    <string name="Filtros">Filtros</string>
+    <string name="SinEscalas">Sin Escalas</string>
+    <string name="UnaEscala">1 Escala</string>
+    <string name="MasDeUnaEscala">Mas De Una Escala</string>
+    <string name="Aerolineas">Aerolineas</string>
+    <string name="Avianca">Avianca</string>
+    <string name="Copa">Copa Airlines</string>
+    <string name="Latam">Latam Airlines</string>
+    <string name="Wingo">Wingo</string>
+    <string name="Precios">Precios menores a 2.000.000</string>
+    <string name="Horarios">Franja Horarios De Salida</string>
+    <string name="AntesHora">Antes De Las 6 AM</string>
+    <string name="EntreHoras">Entre 6 AM Y 12 AM</string>
+    <string name="RangoPrecios">Rango De Precios</string>
+    <string name="OrdenarPor">Ordenar Por</string>
+    <string name="Precios2">Precios:</string>
+    <string name="Duracion">Duración:</string>
+    <string name="HoraSalida">Hora De Salida:</string>
+    <string name="HoraLlegada">Hora De LLegada:</string>
+    <string-array name="RangoPrecios">
+        <item>Escoger Un Precio</item>
+        <item>1.000.000 a 2.000.000</item>
+        <item>2.100.000 a 3.000.000</item>
+        <item>3.100.000 a 4.000.000</item>
+        <item>4.100.000 en adelante</item>
+    </string-array>
+    <string-array name="RangoDuracion">
+        <item>Escoger Una Duración</item>
+        <item>Más Corto</item>
+        <item>Intermedio</item>
+        <item>Más Largo</item>
+    </string-array>
+    <string-array name="RangoSalidas">
+        <item>Escoger Una Hora De Salida</item>
+        <item>Más Temprano</item>
+        <item>Intermedio</item>
+        <item>Más Tarde</item>
+    </string-array>
+    <string-array name="RangoLlegadas">
+        <item>Escoger Una Hora De LLegada</item>
+        <item>Más Temprano</item>
+        <item>Intermedio</item>
+        <item>Más Tarde</item>
+    </string-array>
+    <string name="ReservaHoteles">Reserva Hoteles</string>
+    <string name="ReservaRestaurantes">Reserva Restaurantes</string>
+    <string name="DetallesAgencia">Detalles Agencia</string>
+    <string name="HotelesBogota">Hoteles Bogotá</string>
+    <string name="RestaurantesBogota">Restaurantes Bogotá</string>
+    <string name="Reservar">Reservar</string>
+    <string name="Buscardor">Buscar Hotel</string>
+    <string name="Buscador2">Buscar Restaurante</string>
+    <string name="Detalles">Eco Travel es una agencia de viajes en Costa Rica especializada en Ecoturismo.</string>
+    <string name="Detalles2">Ofrece una experiencia única al usuario en donde se mezcla la naturaleza con la comodidad.</string>
+    <string name="Detalles3">Estos son algunos destinos que podras disfrutar con Eco Travel.</string>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Registrarse_Agencia">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/text_register_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Usuario"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- RadioButtons para seleccionar tipo de usuario -->
+    <RadioGroup
+        android:id="@+id/radio_group_user_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/text_register_title"
+        android:layout_marginTop="16dp">
+
+        <!-- RadioButton para Agencia -->
+        <RadioButton
+            android:id="@+id/radio_agency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agencia"
+            android:checked="true"
+            android:layout_weight="1" />
+
+        <!-- RadioButton para Turista -->
+        <RadioButton
+            android:id="@+id/radio_tourist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turista"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <!-- EditText para nombre de la agencia -->
+    <EditText
+        android:id="@+id/edit_text_agency_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de Agencia"
+        android:layout_below="@id/radio_group_user_type"
+        android:layout_marginTop="16dp"/>
+
+    <!-- EditText para ID de la agencia -->
+    <EditText
+        android:id="@+id/edit_text_agency_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID de Agencia"
+        android:layout_below="@id/edit_text_agency_name"
+        android:layout_marginTop="8dp"/>
+
+    <!-- EditText para número de contacto -->
+    <EditText
+        android:id="@+id/edit_text_contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Contacto"
+        android:inputType="phone"
+        android:layout_below="@id/edit_text_agency_id"
+        android:layout_marginTop="8dp"/>
+
+    <!-- EditText para correo -->
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/edit_text_contact_number"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Texto de términos y condiciones -->
+    <TextView
+        android:id="@+id/text_terms_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Al registrarse acepta los términos y condiciones de SmartTravel así como sus políticas de privacidad."
+        android:layout_below="@id/edit_text_email"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón de registro -->
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Registrarse"
+        android:layout_below="@id/text_terms_conditions"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#23B894" />
+
+    <!-- Texto para iniciar sesión -->
+    <TextView
+        android:id="@+id/text_already_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_register"
+        android:layout_marginTop="16dp"
+        android:text="¿Ya tienes cuenta?" />
+
+    <!-- Texto de iniciar sesión -->
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_already_have_account"
+        android:layout_marginTop="8dp"
+        android:text="Iniciar Sesión" />
+
+</RelativeLayout>

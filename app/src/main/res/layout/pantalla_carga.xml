@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Pantalla_Carga">
+
+
+    <!-- Imagen del círculo de carga -->
+    <ImageView
+        android:id="@+id/image_loading"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/carga" />
+
+    <!-- Texto "Buscando vuelos baratos" -->
+    <TextView
+        android:id="@+id/text_searching_flights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_loading"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:text="Buscando vuelos baratos"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Texto "Usted nos dijo cuándo y dónde..." -->
+    <TextView
+        android:id="@+id/text_you_told_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_searching_flights"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:text="Usted nos dijo cuándo y dónde...\nAhora déjenos llevarle con nuestras fantásticas tarifas en más de 500 aerolíneas"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</RelativeLayout>
