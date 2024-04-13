@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Pagar">
+
+    <!-- Imagen a un lado del título -->
+    <ImageButton
+        android:id="@+id/Buttonx1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/x" />
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Pagar"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Cuadro de texto para el valor total -->
+    <TextView
+        android:id="@+id/textViewValorTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPagar"
+        android:layout_marginTop="16dp"
+        android:text="Valor Total:"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/textViewValorDinero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPagar"
+        android:layout_marginTop="8dp"
+        android:text="100.00 USD"
+        android:layout_alignParentEnd="true"/>
+
+    <!-- Espacio entre Valor Total y Método de Pago -->
+    <View
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/textViewValorDinero"
+        android:background="@android:color/transparent" />
+
+    <!-- Subtítulo para el método de pago -->
+    <TextView
+        android:id="@+id/textViewMetodoPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space1"
+        android:layout_marginTop="50dp"
+        android:text="Método de Pago"
+        android:textStyle="bold" />
+
+    <!-- Método de pago: Tarjeta de crédito/débito -->
+    <TextView
+        android:id="@+id/textViewTarjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMetodoPago"
+        android:layout_marginTop="16dp"
+        android:text="Tarjeta de crédito/débito" />
+
+    <!-- Espacio para imagen de tarjeta de crédito/débito -->
+    <ImageButton
+        android:id="@+id/imageViewTarjeta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textViewMetodoPago"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/flechapago" />
+
+    <!-- Espacio entre Tarjeta de Crédito/Débito y PSE -->
+    <View
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/imageViewTarjeta"
+        android:background="@android:color/transparent" />
+
+    <!-- Método de pago: PSE -->
+    <TextView
+        android:id="@+id/textViewPSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space2"
+        android:layout_marginTop="16dp"
+        android:text="PSE" />
+
+    <!-- Espacio para imagen de PSE -->
+    <ImageButton
+        android:id="@+id/imageViewPSE"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/space2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/flechapago" />
+
+    <!-- Espacio entre PSE y Puntos SmartTravel -->
+    <View
+        android:id="@+id/space3"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/imageViewPSE"
+        android:background="@android:color/transparent" />
+
+    <!-- Método de pago: Puntos SmartTravel -->
+    <TextView
+        android:id="@+id/textViewPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space3"
+        android:layout_marginTop="16dp"
+        android:text="Puntos SmartTravel" />
+
+    <!-- Espacio para imagen de Puntos SmartTravel -->
+    <ImageButton
+        android:id="@+id/Buttonx3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/space3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/flechapago" />
+
+    <!-- Texto de acuerdo de privacidad y términos de servicio -->
+    <TextView
+        android:id="@+id/textViewPoliticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Buttonx3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Al proceder, entiendo y estoy de acuerdo con la política de privacidad, el acuerdo de usuario y los términos de servicio de SmartTravel."
+        android:textAlignment="center" />
+
+</RelativeLayout>

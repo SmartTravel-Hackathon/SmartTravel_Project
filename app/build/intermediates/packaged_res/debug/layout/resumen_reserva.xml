@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Resumen_Reserva">
+
+    <!-- Imagen a un lado del título -->
+    <ImageButton
+        android:id="@+id/Buttonx1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/x" />
+
+    <!-- Título "Resumen de Reserva" -->
+    <TextView
+        android:id="@+id/textViewTituloResumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/Buttonx1"
+        android:layout_toEndOf="@id/Buttonx1"
+        android:text="Resumen de Reserva"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Espacio entre "Resumen de Reserva" y "Datos del Viajero" -->
+    <View
+        android:id="@+id/spaceResumenViajero"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textViewTituloResumen"
+        android:background="@android:color/transparent" />
+
+    <!-- Título "Datos del Viajero" -->
+    <TextView
+        android:id="@+id/textViewTituloDatosViajero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spaceResumenViajero"
+        android:text="Datos del Viajero"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Texto "Juan Rodriguez" -->
+    <TextView
+        android:id="@+id/textViewNombreViajero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTituloDatosViajero"
+        android:text="Juan Rodriguez" />
+
+    <!-- Texto "juan.rodri@gmail.com" -->
+    <TextView
+        android:id="@+id/textViewCorreoViajero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNombreViajero"
+        android:text="juan.rodri@gmail.com" />
+
+    <!-- Texto "+573145643289" -->
+    <TextView
+        android:id="@+id/textViewTelefonoViajero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCorreoViajero"
+        android:text="+573145643289" />
+
+    <!-- Espacio entre "Datos del Viajero" y "Detalle del Vuelo" -->
+    <View
+        android:id="@+id/spaceViajeroDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textViewTelefonoViajero"
+        android:background="@android:color/transparent" />
+
+    <!-- Título "Detalle del Vuelo" -->
+    <TextView
+        android:id="@+id/textViewTituloDetalleVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spaceViajeroDetalle"
+        android:layout_centerHorizontal="true"
+        android:text="Detalle del Vuelo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Texto "BOG a SJO" -->
+    <TextView
+        android:id="@+id/textViewRutaVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTituloDetalleVuelo"
+        android:layout_centerHorizontal="true"
+        android:text="BOG a SJO" />
+
+    <!-- Texto "Vistara | UK 933" -->
+    <TextView
+        android:id="@+id/textViewDetalleVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRutaVuelo"
+        android:text="Vistara | UK 933"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Texto "112.5" -->
+    <TextView
+        android:id="@+id/textViewPrecioVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRutaVuelo"
+        android:layout_alignParentEnd="true"
+        android:text="112.5" />
+
+    <!-- Texto "19:00" -->
+    <TextView
+        android:id="@+id/textViewHoraSalida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetalleVuelo"
+        android:layout_alignParentStart="true"
+        android:text="19:00" />
+
+    <!-- Texto "2hrs 5 mins" -->
+    <TextView
+        android:id="@+id/textViewDuracionVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetalleVuelo"
+        android:layout_centerHorizontal="true"
+        android:text="2hrs 5 mins" />
+
+    <!-- Texto "21:35" -->
+    <TextView
+        android:id="@+id/textViewHoraLlegada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDetalleVuelo"
+        android:layout_alignParentEnd="true"
+        android:text="21:35" />
+
+    <!-- Texto "New Delhi" -->
+    <TextView
+        android:id="@+id/textViewAeropuertoSalida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHoraSalida"
+        android:layout_alignParentStart="true"
+        android:text="New Delhi" />
+
+    <!-- Texto "Goa (North)" -->
+    <TextView
+        android:id="@+id/textViewAeropuertoLlegada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHoraLlegada"
+        android:layout_alignParentEnd="true"
+        android:text="Goa (North)" />
+
+    <!-- Texto "(IGI Airport)" -->
+    <TextView
+        android:id="@+id/textViewAeropuertoSalidaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAeropuertoSalida"
+        android:layout_alignParentStart="true"
+        android:text="(IGI Airport)" />
+
+    <!-- Texto "(Dabolim Airport)" -->
+    <TextView
+        android:id="@+id/textViewAeropuertoLlegadaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAeropuertoLlegada"
+        android:layout_alignParentEnd="true"
+        android:text="(Dabolim Airport)" />
+
+    <!-- Texto "Sat, 10 Jun 23" -->
+    <TextView
+        android:id="@+id/textViewFechaVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAeropuertoSalidaNombre"
+        android:layout_alignParentStart="true"
+        android:text="Sat, 10 Jun 23" />
+
+    <!-- Texto "Sat, 10 Jun 23" -->
+    <TextView
+        android:id="@+id/textViewFechaVueloLlegada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAeropuertoLlegadaNombre"
+        android:layout_alignParentEnd="true"
+        android:text="Sat, 10 Jun 23" />
+
+    <!-- Espacio después de la sección de detalles del vuelo -->
+    <View
+        android:id="@+id/spaceDetalleCompra"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textViewFechaVueloLlegada"
+        android:background="@android:color/transparent" />
+
+    <!-- Título "Detalles Compra" -->
+    <TextView
+        android:id="@+id/textViewTituloDetalleCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spaceDetalleCompra"
+        android:text="Detalles Compra"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Texto "Vuelos" -->
+    <TextView
+        android:id="@+id/textViewVuelos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTituloDetalleCompra"
+        android:layout_alignParentStart="true"
+        android:text="Vuelos" />
+
+    <!-- Texto "$112.5" -->
+    <TextView
+        android:id="@+id/textViewPrecioVuelos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTituloDetalleCompra"
+        android:layout_alignParentEnd="true"
+        android:text="$112.5" />
+
+    <!-- Texto "Hoteles" -->
+    <TextView
+        android:id="@+id/textViewHoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewVuelos"
+        android:layout_alignParentStart="true"
+        android:text="Hoteles" />
+
+    <!-- Texto "$200" -->
+    <TextView
+        android:id="@+id/textViewPrecioHoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrecioVuelos"
+        android:layout_alignParentEnd="true"
+        android:text="$200" />
+
+    <!-- Texto "Taxi" -->
+    <TextView
+        android:id="@+id/textViewTaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHoteles"
+        android:layout_alignParentStart="true"
+        android:text="Taxi" />
+
+    <!-- Texto "$50" -->
+    <TextView
+        android:id="@+id/textViewPrecioTaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrecioHoteles"
+        android:layout_alignParentEnd="true"
+        android:text="$50" />
+
+    <!-- Texto "Costos de Gestión" -->
+    <TextView
+        android:id="@+id/textViewCostosGestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTaxi"
+        android:layout_alignParentStart="true"
+        android:text="Costos de Gestión" />
+
+    <!-- Texto "$30" -->
+    <TextView
+        android:id="@+id/textViewPrecioCostosGestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrecioTaxi"
+        android:layout_alignParentEnd="true"
+        android:text="$30" />
+
+    <!-- Espacio después de la sección de detalles de compra -->
+    <View
+        android:id="@+id/spaceDetalleCompraTotal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/textViewPrecioCostosGestion"
+        android:background="@android:color/transparent" />
+
+    <!-- Texto "Puntos" -->
+    <TextView
+        android:id="@+id/textViewPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spaceDetalleCompraTotal"
+        android:layout_alignParentStart="true"
+        android:text="Puntos" />
+
+    <!-- Texto "500" -->
+    <TextView
+        android:id="@+id/textViewCantidadPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spaceDetalleCompraTotal"
+        android:layout_alignParentEnd="true"
+        android:text="500" />
+
+    <!-- Texto "Costo Total" -->
+    <TextView
+        android:id="@+id/textViewCostoTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPuntos"
+        android:layout_alignParentStart="true"
+        android:text="Costo Total" />
+
+    <!-- Texto "$442.5" -->
+    <TextView
+        android:id="@+id/textViewPrecioTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCantidadPuntos"
+        android:layout_alignParentEnd="true"
+        android:text="$442.5" />
+
+    <!-- Botón "Continuar" -->
+    <Button
+        android:id="@+id/buttonContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrecioTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Continuar"
+        android:backgroundTint="#23B894" />
+
+</RelativeLayout>
+

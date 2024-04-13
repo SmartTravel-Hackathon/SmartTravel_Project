@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Reservar_Carro">
+
+
+
+    <!-- Imagen -->
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/x" />
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Reserva Carro"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+
+    <!-- Campo de origen -->
+    <TextView
+        android:id="@+id/textViewOrigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:text="Lugar de Origen" />
+
+    <EditText
+        android:id="@+id/editTextOrigen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewOrigen"
+        android:layout_marginTop="8dp" />
+
+    <!-- Campo de destino -->
+    <TextView
+        android:id="@+id/textViewDestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextOrigen"
+        android:text="Lugar de Destino" />
+
+    <EditText
+        android:id="@+id/editTextDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDestino"
+        android:layout_marginTop="8dp" />
+
+    <!-- Campo de fecha -->
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDestino"
+        android:text="Fecha" />
+
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFecha"
+        android:layout_marginTop="8dp" />
+
+    <!-- Campo de hora -->
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFecha"
+        android:text="Hora" />
+
+    <EditText
+        android:id="@+id/editTextHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHora"
+        android:layout_marginTop="8dp" />
+
+    <!-- Selección de tipo de vehículo -->
+    <TextView
+        android:id="@+id/textViewTipoVehiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextHora"
+        android:text="Tipo de Vehículo"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupVehiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTipoVehiculo"
+         android:orientation="horizontal"
+        android:layout_marginStart="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonTaxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taxi" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uber" />
+
+        <RadioButton
+            android:id="@+id/radioButtonVan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Van" />
+    </RadioGroup>
+
+    <!-- Texto de tarifa total -->
+    <TextView
+        android:id="@+id/textViewTarifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupVehiculo"
+        android:layout_alignParentEnd="true"
+        android:text="100.00 USD"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textViewTarifaTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewTarifa"
+        android:layout_toStartOf="@id/textViewTarifa"
+        android:text="Tarifa Total" />
+
+    <!-- Botón de continuar -->
+    <Button
+        android:id="@+id/buttonContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:layout_below="@id/textViewTarifaTotal"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#23B894"/>
+
+</RelativeLayout>

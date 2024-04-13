@@ -11,9 +11,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val botonPruebaInicio = findViewById<Button>(R.id.button_inicio)
         val botonPruebaLogin = findViewById<Button>(R.id.button_login)
-        val botonPruebaPantalla_Carga= findViewById<Button>(R.id.button_carga)
+        val botonPruebaPantalla_Carga1= findViewById<Button>(R.id.button_carga)
         val botonPruebaRegistrarse_Turista = findViewById<Button>(R.id.button_registertourist)
         val botonPruebaRegistrarse_Agencia = findViewById<Button>(R.id.button_registeragency)
+
+        val botonPruebaReservar_Carro = findViewById<Button>(R.id.button_Reserva_Carro)
+        val botonPruebaDatos_viajero = findViewById<Button>(R.id.button_Datos_del_viajero)
+        val botonPruebaResumen_reserva= findViewById<Button>(R.id.button_Resumen_Reserva)
+        val botonPruebaPagar = findViewById<Button>(R.id.button_Pagar)
+        val botonPruebaPantalla_Carga2 = findViewById<Button>(R.id.button_Carga2)
 
 
         val botonPrueba = findViewById<Button>(R.id.button)
@@ -31,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent (this, Login::class.java)
             startActivity(intent)
         }
-        botonPruebaPantalla_Carga.setOnClickListener {
+        botonPruebaPantalla_Carga1.setOnClickListener {
             val intent = Intent (this, Pantalla_Carga::class.java)
             startActivity(intent)
         }
@@ -43,6 +49,32 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent (this, Registrarse_Agencia::class.java)
             startActivity(intent)
         }
+
+
+        botonPruebaReservar_Carro.setOnClickListener {
+            val intent = Intent (this, Reservar_Carro::class.java)
+            startActivity(intent)
+        }
+        botonPruebaDatos_viajero.setOnClickListener {
+            val intent = Intent (this, Datos_Viajero::class.java)
+            startActivity(intent)
+        }
+        botonPruebaResumen_reserva.setOnClickListener {
+            val intent = Intent (this, Resumen_Reserva::class.java)
+            startActivity(intent)
+        }
+        botonPruebaPagar.setOnClickListener {
+            val intent = Intent (this, Pagar::class.java)
+            startActivity(intent)
+        }
+        botonPruebaPantalla_Carga2.setOnClickListener {
+            val intent = Intent (this, Pantalla_Carga2::class.java)
+            startActivity(intent)
+        }
+
+
+
+
 
 
 
