@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Reserva_Hoteles">
+
+    <TextView
+        android:id="@+id/textResHot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="30dp"
+        android:text="@string/ReservaHoteles"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/x" />
+
+    <TextView
+        android:id="@+id/textHotelesBog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textResHot"
+        android:layout_centerInParent="true"
+        android:paddingBottom="20dp"
+        android:text="@string/HotelesBogota"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/buscador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textHotelesBog"
+        android:paddingBottom="16dp"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Buscardor" />
+
+
+    <ImageView
+        android:id="@+id/hotelBog1"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/buscador"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/hotbog1" />
+
+    <Button
+        android:id="@+id/reservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/hotelBog1"
+        android:text="@string/Reservar" />
+
+    <ImageView
+        android:id="@+id/hotelBog2"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/reservar"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/hotbog2" />
+
+</RelativeLayout>

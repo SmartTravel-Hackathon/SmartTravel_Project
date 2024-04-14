@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_pantalla_carga.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/pantalla_carga.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_det1.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/det1.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_inicio.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/inicio.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_hotbog1.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/hotbog1.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_res2.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/res2.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_registrarse_agencia.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/registrarse_agencia.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_activity_reserva_restaurantes.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/activity_reserva_restaurantes.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_activity_ordenar_por.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/activity_ordenar_por.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_x.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/x.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_hotbog2.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/hotbog2.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_activity_filtro_vuelos.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/activity_filtro_vuelos.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_activity_reserva_hoteles.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/activity_reserva_hoteles.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_activity_detalles_agencia.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/activity_detalles_agencia.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_res1.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/res1.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_det2.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/det2.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_carga.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/carga.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_flecha.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/flecha.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.hackaton.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_login.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/login.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/drawable_logo.png.flat",
+        "source": "com.example.hackaton.app-main-33:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-31:/layout_registrarse_turista.xml.flat",
+        "source": "com.example.hackaton.app-main-33:/layout/registrarse_turista.xml"
+    }
+]
