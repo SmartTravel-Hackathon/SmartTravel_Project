@@ -46,6 +46,24 @@
             android:name="com.example.hackaton.Detalles_Agencia"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
+            android:name="com.example.hackaton.Reservar_Carro"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Datos_Viajero"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Resumen_Reserva"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Pagar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Pantalla_Carga2"
+            android:exported="false" />
+        <activity
+=======
+>>>>>>> main
             android:name="com.example.hackaton.Reserva_Restaurantes"
             android:exported="false" />
         <activity

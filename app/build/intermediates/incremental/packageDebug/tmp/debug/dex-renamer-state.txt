@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+#Sat Apr 13 00:21:34 COT 2024
+base.0=C\:\\Users\\jonat\\Desktop\\Proyecto____Hackaton\\SmartTravel_Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\jonat\\Desktop\\Proyecto____Hackaton\\SmartTravel_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\jonat\\Desktop\\Proyecto____Hackaton\\SmartTravel_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+=======
 #Fri Apr 12 19:58:19 COT 2024
 base.0=C\:\\Users\\Luis Alejandro\\Downloads\\SmartTravel_Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Luis Alejandro\\Downloads\\SmartTravel_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Luis Alejandro\\Downloads\\SmartTravel_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+>>>>>>> main
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex

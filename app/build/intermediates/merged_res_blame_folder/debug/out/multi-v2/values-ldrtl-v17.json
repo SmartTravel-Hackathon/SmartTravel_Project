@@ -4,7 +4,11 @@
             "outputFile": "com.example.hackaton.app-mergeDebugResources-29:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\jonat\\Desktop\\HACKATON\\Hackaton\\gradle\\caches\\transforms-3\\56af212e940d1f2bde023f0cf7bfa9c5\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+=======
                     "source": "C:\\Users\\Luis Alejandro\\.gradle\\caches\\transforms-3\\56af212e940d1f2bde023f0cf7bfa9c5\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

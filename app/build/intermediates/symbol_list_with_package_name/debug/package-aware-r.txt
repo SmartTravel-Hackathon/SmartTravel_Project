@@ -2991,6 +2991,10 @@ drawable design_snackbar_background
 drawable det1
 drawable det2
 drawable flecha
+<<<<<<< HEAD
+drawable flechapago
+=======
+>>>>>>> main
 drawable hotbog1
 drawable hotbog2
 drawable ic_arrow_back_black_24
@@ -3095,6 +3099,11 @@ drawable x
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+<<<<<<< HEAD
+id Buttonx1
+id Buttonx3
+=======
+>>>>>>> main
 id CTRL
 id FUNCTION
 id META
@@ -3201,7 +3210,18 @@ id button2
 id button3
 id button4
 id button5
+<<<<<<< HEAD
+id buttonContinuar
+id buttonGuardar
 id buttonPanel
+id button_Carga2
+id button_Datos_del_viajero
+id button_Pagar
+id button_Reserva_Carro
+id button_Resumen_Reserva
+=======
+id buttonPanel
+>>>>>>> main
 id button_carga
 id button_inicio
 id button_login
@@ -3286,6 +3306,17 @@ id easeInOut
 id easeOut
 id east
 id edge
+<<<<<<< HEAD
+id editTextApellidos
+id editTextCorreo
+id editTextDestino
+id editTextFecha
+id editTextHora
+id editTextNombre
+id editTextNumeroContacto
+id editTextOrigen
+=======
+>>>>>>> main
 id editTextTextPassword
 id edit_query
 id edit_text_agency_id
@@ -3346,6 +3377,11 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+<<<<<<< HEAD
+id imageViewPSE
+id imageViewTarjeta
+=======
+>>>>>>> main
 id image_loading
 id imageflecha
 id imagelogo
@@ -3488,6 +3524,16 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+<<<<<<< HEAD
+id radioButtonFemenino
+id radioButtonMasculino
+id radioButtonTaxi
+id radioButtonUber
+id radioButtonVan
+id radioGroupGenero
+id radioGroupVehiculo
+=======
+>>>>>>> main
 id radio_agency
 id radio_group_user_type
 id radio_tourist
@@ -3543,6 +3589,16 @@ id snackbar_text
 id snap
 id snapMargins
 id south
+<<<<<<< HEAD
+id space1
+id space2
+id space3
+id spaceDetalleCompra
+id spaceDetalleCompraTotal
+id spaceResumenViajero
+id spaceViajeroDetalle
+=======
+>>>>>>> main
 id spacer
 id special_effects_controller_view_tag
 id spinnerDuración
@@ -3603,9 +3659,66 @@ id textStart
 id textTop
 id textView
 id textView2
+<<<<<<< HEAD
+id textViewAeropuertoLlegada
+id textViewAeropuertoLlegadaNombre
+id textViewAeropuertoSalida
+id textViewAeropuertoSalidaNombre
+id textViewApellidos
+id textViewCantidadPuntos
+id textViewCorreo
+id textViewCorreoViajero
+id textViewCostoTotal
+id textViewCostosGestion
+id textViewDestino
+id textViewDetalleVuelo
+id textViewDuracionVuelo
+id textViewFecha
+id textViewFechaVuelo
+id textViewFechaVueloLlegada
+id textViewGenero
+id textViewHora
+id textViewHoraLlegada
+id textViewHoraSalida
+id textViewHoteles
+id textViewImportante
+id textViewMetodoPago
+id textViewNombre
+id textViewNombreViajero
+id textViewNumeroContacto
+id textViewOrigen
+id textViewPSE
+id textViewPagar
+id textViewPoliticas
+id textViewPrecioCostosGestion
+id textViewPrecioHoteles
+id textViewPrecioTaxi
+id textViewPrecioTotal
+id textViewPrecioVuelo
+id textViewPrecioVuelos
+id textViewPuntos
+id textViewRegister
+id textViewRutaVuelo
+id textViewSignUp
+id textViewTarifa
+id textViewTarifaTotal
+id textViewTarjeta
+id textViewTaxi
+id textViewTelefonoViajero
+id textViewTipoVehiculo
+id textViewTitle
+id textViewTituloDatosViajero
+id textViewTituloDetalleCompra
+id textViewTituloDetalleVuelo
+id textViewTituloResumen
+id textViewValorDinero
+id textViewValorTotal
+id textViewVuelos
+=======
 id textViewRegister
 id textViewSignUp
 id textViewTitle
+>>>>>>> main
 id text_already_have_account
 id text_input_end_icon
 id text_input_error_icon
@@ -3786,6 +3899,10 @@ layout activity_ordenar_por
 layout activity_reserva_hoteles
 layout activity_reserva_restaurantes
 layout custom_dialog
+<<<<<<< HEAD
+layout datos_viajero
+=======
+>>>>>>> main
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3862,9 +3979,19 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+<<<<<<< HEAD
+layout pagar
+layout pantalla_carga
+layout pantalla_carga2
+layout registrarse_agencia
+layout registrarse_turista
+layout reservar_carro
+layout resumen_reserva
+=======
 layout pantalla_carga
 layout registrarse_agencia
 layout registrarse_turista
+>>>>>>> main
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

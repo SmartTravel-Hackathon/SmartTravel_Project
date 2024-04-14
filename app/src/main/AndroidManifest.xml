@@ -32,6 +32,23 @@
             android:exported="false" />
 
         <activity
+            android:name=".Reservar_Carro"
+            android:exported="false" />
+        <activity
+            android:name=".Datos_Viajero"
+            android:exported="false" />
+        <activity
+            android:name=".Resumen_Reserva"
+            android:exported="false" />
+        <activity
+            android:name=".Pagar"
+            android:exported="false" />
+        <activity
+            android:name=".Pantalla_Carga2"
+            android:exported="false" />
+
+
+        <activity
             android:name=".Reserva_Restaurantes"
             android:exported="false" />
         <activity

@@ -39,7 +39,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Pantalla Inicio" />
+            android:text="Pantalla Inicio"
+                android:backgroundTint="#23B894"/>
 
             <Button
                 android:id="@+id/button_login"
@@ -47,7 +48,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
 
-                android:text="Pantalla Login" />
+                android:text="Pantalla Login"
+                android:backgroundTint="#23B894"/>
 
         </LinearLayout>
 
@@ -61,14 +63,16 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
 
-                android:text="Pantalla Registro A" />
+                android:text="Pantalla Registro A"
+                android:backgroundTint="#23B894"/>
 
             <Button
                 android:id="@+id/button_registertourist"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Pantalla Registro T" />
+                android:text="Pantalla Registro T"
+                android:backgroundTint="#23B894"/>
         </LinearLayout>
 
         <LinearLayout
@@ -81,8 +85,64 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Pantalla Carga" />
+                android:text="1 Pantalla Carga"
+                android:backgroundTint="#23B894"/>
+
+            <Button
+                android:id="@+id/button_Reserva_Carro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Reserva Carro"
+                android:backgroundTint="#23B894"/>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Datos_del_viajero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Datos Viajero"
+                android:backgroundTint="#23B894"/>
+
+            <Button
+                android:id="@+id/button_Resumen_Reserva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Resumen Reserva"
+                android:backgroundTint="#23B894"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Pagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="PAGAR"
+                android:backgroundTint="#23B894"/>
+
+            <Button
+                android:id="@+id/button_Carga2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2 Pantalla carga"
+                android:backgroundTint="#23B894"/>
+
+        </LinearLayout>
+
 
 
         <!-- BOTONES FELIPE -->
@@ -100,7 +160,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
 
-                android:text="Pasar A Filtro" />
+                android:text="Pasar A Filtro"
+                android:backgroundTint="#23B894"/>
 
             <Button
                 android:id="@+id/button2"
@@ -108,7 +169,10 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button"
-                android:text="Pasar A Ordenar" />
+                android:text="Pasar A Ordenar"
+                android:backgroundTint="#23B894"/>
+
+
         </LinearLayout>
 
 
@@ -127,7 +191,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button2"
-                android:text="Pasar A Detalles Agencia" />
+                android:text="Pasar A Detalles Agencia"
+                android:backgroundTint="#23B894"/>
 
             <Button
                 android:id="@+id/button4"
@@ -135,7 +200,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button3"
-                android:text="Pasar A Reserva Hoteles" />
+                android:text="Pasar A Reserva Hoteles"
+                android:backgroundTint="#23B894"/>
         </LinearLayout>
 
 
@@ -150,13 +216,23 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button4"
-                android:text="Pasar A Reserva Restaurantes" />
+                android:text="Pasar A Reserva Restaurantes"
+                android:backgroundTint="#23B894"/>
         </LinearLayout>
 
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
 
         <TableRow
             android:layout_width="match_parent"

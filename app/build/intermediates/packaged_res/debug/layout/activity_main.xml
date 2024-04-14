@@ -39,7 +39,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+<<<<<<< HEAD
+            android:text="Pantalla Inicio"
+                android:backgroundTint="#23B894"/>
+=======
             android:text="Pantalla Inicio" />
+>>>>>>> main
 
             <Button
                 android:id="@+id/button_login"
@@ -47,7 +52,12 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
 
+<<<<<<< HEAD
+                android:text="Pantalla Login"
+                android:backgroundTint="#23B894"/>
+=======
                 android:text="Pantalla Login" />
+>>>>>>> main
 
         </LinearLayout>
 
@@ -61,14 +71,24 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
 
+<<<<<<< HEAD
+                android:text="Pantalla Registro A"
+                android:backgroundTint="#23B894"/>
+=======
                 android:text="Pantalla Registro A" />
+>>>>>>> main
 
             <Button
                 android:id="@+id/button_registertourist"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+<<<<<<< HEAD
+                android:text="Pantalla Registro T"
+                android:backgroundTint="#23B894"/>
+=======
                 android:text="Pantalla Registro T" />
+>>>>>>> main
         </LinearLayout>
 
         <LinearLayout
@@ -81,9 +101,71 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+<<<<<<< HEAD
+                android:text="1 Pantalla Carga"
+                android:backgroundTint="#23B894"/>
+
+            <Button
+                android:id="@+id/button_Reserva_Carro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Reserva Carro"
+                android:backgroundTint="#23B894"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Datos_del_viajero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Datos Viajero"
+                android:backgroundTint="#23B894"/>
+
+            <Button
+                android:id="@+id/button_Resumen_Reserva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Resumen Reserva"
+                android:backgroundTint="#23B894"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Pagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="PAGAR"
+                android:backgroundTint="#23B894"/>
+
+            <Button
+                android:id="@+id/button_Carga2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2 Pantalla carga"
+                android:backgroundTint="#23B894"/>
+
+        </LinearLayout>
+
+
+=======
                 android:text="Pantalla Carga" />
         </LinearLayout>
 
+>>>>>>> main
 
         <!-- BOTONES FELIPE -->
         <TableRow
@@ -100,7 +182,12 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
 
+<<<<<<< HEAD
+                android:text="Pasar A Filtro"
+                android:backgroundTint="#23B894"/>
+=======
                 android:text="Pasar A Filtro" />
+>>>>>>> main
 
             <Button
                 android:id="@+id/button2"
@@ -108,7 +195,14 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button"
+<<<<<<< HEAD
+                android:text="Pasar A Ordenar"
+                android:backgroundTint="#23B894"/>
+
+
+=======
                 android:text="Pasar A Ordenar" />
+>>>>>>> main
         </LinearLayout>
 
 
@@ -127,7 +221,12 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button2"
+<<<<<<< HEAD
+                android:text="Pasar A Detalles Agencia"
+                android:backgroundTint="#23B894"/>
+=======
                 android:text="Pasar A Detalles Agencia" />
+>>>>>>> main
 
             <Button
                 android:id="@+id/button4"
@@ -135,7 +234,12 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button3"
+<<<<<<< HEAD
+                android:text="Pasar A Reserva Hoteles"
+                android:backgroundTint="#23B894"/>
+=======
                 android:text="Pasar A Reserva Hoteles" />
+>>>>>>> main
         </LinearLayout>
 
 
@@ -150,7 +254,12 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_below="@id/button4"
+<<<<<<< HEAD
+                android:text="Pasar A Reserva Restaurantes"
+                android:backgroundTint="#23B894"/>
+=======
                 android:text="Pasar A Reserva Restaurantes" />
+>>>>>>> main
         </LinearLayout>
 
 
@@ -158,6 +267,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
+<<<<<<< HEAD
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+=======
+>>>>>>> main
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

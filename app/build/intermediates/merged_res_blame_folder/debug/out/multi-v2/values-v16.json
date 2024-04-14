@@ -4,6 +4,9 @@
             "outputFile": "com.example.hackaton.app-mergeDebugResources-29:/values-v16/values-v16.xml",
             "map": [
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\jonat\\Desktop\\HACKATON\\Hackaton\\gradle\\caches\\transforms-3\\60b492a510ec931c8abbf232e0a5612c\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+=======
                     "source": "C:\\Users\\Luis Alejandro\\.gradle\\caches\\transforms-3\\d1e4a685b1001794fbcfe4ee9c157a7e\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
@@ -15,6 +18,7 @@
                 },
                 {
                     "source": "C:\\Users\\Luis Alejandro\\.gradle\\caches\\transforms-3\\60b492a510ec931c8abbf232e0a5612c\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,6 +35,19 @@
                         "endColumns": "12",
                         "endOffsets": "289"
                     }
+<<<<<<< HEAD
+                },
+                {
+                    "source": "C:\\Users\\jonat\\Desktop\\HACKATON\\Hackaton\\gradle\\caches\\transforms-3\\d1e4a685b1001794fbcfe4ee9c157a7e\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+=======
+>>>>>>> main
                 }
             ]
         }
