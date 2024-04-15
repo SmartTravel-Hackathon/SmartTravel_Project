@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/home"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HomeActivity"
+    android:layout_centerHorizontal="true"
+    android:background="#8FA6EAF3"
+    android:paddingTop="20dp">
+
+    <EditText
+        android:id="@+id/buscarDestino"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Dirección actual"
+        android:paddingLeft="5dp"
+        android:background="@drawable/button_border"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/direccionActual"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Buscar destino"
+        android:paddingLeft="5dp"
+        android:background="@drawable/button_border"
+        android:layout_below="@+id/buscarDestino"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageButton
+        android:id="@+id/iconoAccount"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_account"
+        app:tint="@color/gray"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/iconoPlanes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoAccount"
+        android:src="@drawable/ic_planesturisticos"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoMisViajes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoPlanes"
+        android:src="@drawable/ic_trips"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoNotificaciones"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoMisViajes"
+        android:src="@drawable/ic_notifications"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoHome"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_home"
+        app:tint="@color/green"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/direccionActual"
+        android:layout_marginTop="2dp">
+
+        <RelativeLayout
+            android:id="@+id/botonesServicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-1dp"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:paddingTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/Vuelos"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <ImageButton
+                    android:id="@+id/botonVuelo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_flight"
+                    app:tint="#23B894" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/botonVuelo"
+                    android:layout_centerHorizontal="true"
+                    android:text="Vuelos"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/hoteles"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@id/Vuelos">
+
+                <ImageButton
+                    android:id="@+id/botonHotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_hotel"
+                    app:tint="@color/green" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/botonHotel"
+                    android:layout_centerHorizontal="true"
+                    android:text="Hoteles"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/planes"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toRightOf="@id/hoteles">
+
+                <ImageButton
+                    android:id="@+id/botonPlanes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_planes"
+                    app:tint="@color/green" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/botonPlanes"
+                    android:layout_centerHorizontal="true"
+                    android:text="Planes"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/restaurantes"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Vuelos"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp">
+
+                <ImageButton
+                    android:id="@+id/botonRestaurantes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_restaurantes"
+                    app:tint="@color/green" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/botonRestaurantes"
+                    android:layout_centerHorizontal="true"
+                    android:text="Restaurantes"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/transporte"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hoteles"
+                android:layout_margin="8dp"
+                android:layout_toRightOf="@id/restaurantes">
+
+                <ImageButton
+                    android:id="@+id/botonTransporte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_transport"
+                    app:tint="@color/green" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/botonTransporte"
+                    android:layout_centerHorizontal="true"
+                    android:text="Transporte"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/alojamiento"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/planes"
+                android:layout_margin="8dp"
+                android:layout_toRightOf="@id/transporte">
+
+                <ImageButton
+                    android:id="@+id/botonAlojamiento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/ic_alojamiento"
+                    app:tint="@color/green" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/botonAlojamiento"
+                    android:layout_centerHorizontal="true"
+                    android:text="Alojamiento"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/grupoRecomendaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/botonesServicios"
+            android:background="@color/white"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingBottom="0dp">
+
+            <TextView
+                android:id="@+id/recomendacionesViajes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recomendaciones de viajes"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/verTodosViajes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Ver todos >" />
+
+            <ImageView
+                android:id="@+id/imagenViaje1"
+                android:layout_width="169dp"
+                android:layout_height="139dp"
+                android:layout_below="@id/recomendacionesViajes"
+                android:padding="5dp"
+                tools:srcCompat="@drawable/tourCol" />
+
+            <TextView
+                android:id="@+id/descripiónViaje1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imagenViaje1"
+                android:padding="10dp"
+                android:text="Tour por Costa Rica"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/precioViaje1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imagenViaje1"
+                android:layout_toRightOf="@id/descripiónViaje1"
+                android:padding="10dp"
+                android:text="$100"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagenViaje2"
+                android:layout_width="169dp"
+                android:layout_height="139dp"
+                android:layout_below="@id/recomendacionesViajes"
+                android:layout_toRightOf="@id/imagenViaje1"
+                android:padding="5dp"
+                tools:srcCompat="@drawable/tourCR" />
+
+            <TextView
+                android:id="@+id/descricpiónViaje2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imagenViaje2"
+                android:layout_toRightOf="@id/precioViaje1"
+                android:padding="10dp"
+                android:text="Tour por Colombia"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/precioViaje2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imagenViaje2"
+                android:layout_toRightOf="@id/descricpiónViaje2"
+                android:padding="10dp"
+                android:text="$150"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/agencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/grupoRecomendaciones"
+            android:background="@color/white"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingBottom="0dp">
+
+            <TextView
+                android:id="@+id/agenciasEcoturismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agencias de ecoturismo"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/verTodosAgencias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Ver todos >" />
+
+            <Button
+                android:id="@+id/agencia1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/agenciasEcoturismo"
+                android:background="@android:color/transparent"
+                android:text="EcoTravel"
+                android:textColor="#23B894"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/agencia2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/agenciasEcoturismo"
+                android:layout_toRightOf="@id/agencia1"
+                android:background="@android:color/transparent"
+                android:text="Fair Voyage"
+                android:textColor="#23B894"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/agencia3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/agenciasEcoturismo"
+                android:layout_toRightOf="@id/agencia2"
+                android:background="@android:color/transparent"
+                android:text="Very Local Trip"
+                android:textColor="#23B894"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agencias"
+            android:background="@color/white"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingBottom="0dp">
+
+            <TextView
+                android:id="@+id/beneficiosOfertas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficios y ofertas"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagenBeneficio1"
+                android:layout_width="169dp"
+                android:layout_height="139dp"
+                android:layout_below="@id/beneficiosOfertas"
+                tools:srcCompat="@drawable/beneficio1" />
+
+            <ImageView
+                android:id="@+id/imagenBeneficio2"
+                android:layout_width="169dp"
+                android:layout_height="139dp"
+                android:layout_below="@id/beneficiosOfertas"
+                android:layout_toRightOf="@id/imagenBeneficio1"
+                tools:srcCompat="@drawable/beneficio2" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
