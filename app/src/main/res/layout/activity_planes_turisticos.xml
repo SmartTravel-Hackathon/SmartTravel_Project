@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
                 android:text="Planes turísticos"
-                android:backgroundTint="@color/green"/>
+                android:backgroundTint="@color/blue"/>
 
             <Button
                 android:id="@+id/buttonPersonalizaViaje"
@@ -87,7 +87,7 @@
                 android:layout_weight="0.5"
                 android:text="Personaliza tu viaje"
                 android:backgroundTint="@color/white"
-                android:textColor="@color/green"/>
+                android:textColor="@color/blue"/>
 
         </LinearLayout>
 
