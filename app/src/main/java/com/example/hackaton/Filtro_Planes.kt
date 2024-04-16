@@ -1,7 +1,10 @@
 package com.example.hackaton
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageButton
 import android.widget.SeekBar
 import android.widget.TextView
 
@@ -26,6 +29,10 @@ class Filtro_Planes : AppCompatActivity() {
 
             }
         })
+
+        findViewById<ImageButton>(R.id.xButton).setOnClickListener {
+            startActivity(Intent(this, PlanesTuristicos::class.java))
+        }
 
     }
 }
