@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Perfil">
+
+    <TextView
+        android:id="@+id/textPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="30dp"
+        android:text="@string/Perfil"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/imageFotoPerfil"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/textPerfil"
+        app:srcCompat="@drawable/perfil1" />
+
+    <TextView
+        android:id="@+id/textNombrePerfil"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPerfil"
+        android:layout_toRightOf="@+id/imageFotoPerfil"
+        android:paddingTop="20dp"
+        android:paddingStart="10dp"
+        android:text="@string/NombrePerfil"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textMostrarPerfil"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNombrePerfil"
+        android:layout_toRightOf="@+id/imageFotoPerfil"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:text="@string/MostrarPerfil"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageFotoPerfil"
+        android:text=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/iconoViajes"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/blanco"
+        app:srcCompat="@drawable/icono_viajes" />
+
+    <TextView
+        android:id="@+id/textMisViajes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco"
+        android:layout_toRightOf="@+id/iconoViajes"
+        android:paddingTop="8dp"
+        android:paddingStart="10dp"
+        android:text="@string/MisViajes"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/blanco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconoViajes"
+        android:text=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/iconoPuntos"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/blanco2"
+        app:srcCompat="@drawable/puntos_smart" />
+
+    <TextView
+        android:id="@+id/textPuntos"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco2"
+        android:layout_toRightOf="@+id/iconoViajes"
+        android:paddingTop="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/Puntos"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/blanco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconoPuntos"
+        android:text=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/iconoModoPago"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/blanco3"
+        app:srcCompat="@drawable/modo_pago" />
+
+    <TextView
+        android:id="@+id/textMetodosPago"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco3"
+        android:layout_toRightOf="@+id/iconoViajes"
+        android:paddingTop="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/ModoPago"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/blanco4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconoModoPago"
+        android:text=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/iconoAyuda"
+        android:layout_width="35dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/blanco4"
+        app:srcCompat="@drawable/ayuda_icono" />
+
+    <TextView
+        android:id="@+id/textAyuda"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco4"
+        android:layout_toRightOf="@+id/iconoAyuda"
+        android:paddingTop="8dp"
+        android:paddingStart="10dp"
+        android:text="@string/Ayuda"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/blanco5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconoAyuda"
+        android:text=""
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/iconoConfiguracion"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/blanco5"
+        app:srcCompat="@drawable/configuracion_icono" />
+
+    <TextView
+        android:id="@+id/textConfiguracion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco5"
+        android:layout_toRightOf="@+id/iconoAyuda"
+        android:paddingTop="7dp"
+        android:paddingStart="10dp"
+        android:text="@string/Configuracion"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/buttonViajes"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/blanco"
+        android:layout_toRightOf="@+id/textMisViajes"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/buttonPuntos"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/blanco2"
+        android:layout_toRightOf="@+id/textPuntos"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/green" />
+
+    <ImageButton
+        android:id="@+id/buttonModoPago"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/blanco3"
+        android:backgroundTint="@color/white"
+        android:layout_toRightOf="@+id/textMetodosPago"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/buttonAyuda"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/blanco4"
+        android:backgroundTint="@color/white"
+        android:layout_toRightOf="@+id/textAyuda"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/buttonConfiguracion"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/blanco5"
+        android:backgroundTint="@color/white"
+        android:layout_toRightOf="@+id/textConfiguracion"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/iconoAccount"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_account"
+        app:tint="@color/green"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/iconoPlanes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoAccount"
+        android:src="@drawable/ic_planesturisticos"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoMisViajes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoPlanes"
+        android:src="@drawable/ic_trips"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoNotificaciones"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoMisViajes"
+        android:src="@drawable/ic_notifications"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoHome"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_home"
+        app:tint="@color/gray"/>
+
+</RelativeLayout>

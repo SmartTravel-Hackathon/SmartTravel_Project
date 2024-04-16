@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/filtro_planes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Filtro_Planes"
+    android:layout_centerHorizontal="true"
+    android:background="#8FA6EAF3"
+    android:paddingTop="80dp">
+
+    <RelativeLayout
+        android:id="@+id/filtros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textFiltros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:text="@string/Filtros"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/clases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textFiltros"
+            android:text="Clase de viajeros"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+
+        <TextView
+            android:id="@+id/limpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="Limpiar"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/green"/>
+
+        <ImageButton
+            android:id="@+id/xButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/x"
+            android:layout_alignParentStart="true"
+            />
+
+        <RadioButton
+            android:id="@+id/EstudiantesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clases"
+            android:layout_centerInParent="true"
+            android:text="Estudiantes"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/FamiliasButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EstudiantesButton"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:text="Familias" />
+
+        <RadioButton
+            android:id="@+id/NegociosButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FamiliasButton"
+            android:layout_centerInParent="true"
+            android:text="Viajeros de negocios"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Clasificaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NegociosButton"
+            android:text="Clasificaciones"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+
+        <RadioButton
+            android:id="@+id/e4Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Clasificaciones"
+            android:layout_centerInParent="true"
+            android:text="4 estrellas para arriba"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/e3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/e4Button"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:text="4 estrellas para arriba" />
+
+        <TextView
+            android:id="@+id/rangoPrecios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/e3Button"
+            android:text="@string/RangoPrecios"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+
+        <SeekBar
+            android:id="@+id/precios"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_below="@id/rangoPrecios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:max="2000"
+            android:progress="1000"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/valorSeekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/precios"
+            android:layout_centerHorizontal="true"
+            android:text="Valor actual: 1000 de 2000"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/actividadeseIntereses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/valorSeekBar"
+            android:text="Actividades e intereses"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+
+        <RadioButton
+            android:id="@+id/turisticosButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/actividadeseIntereses"
+            android:layout_centerInParent="true"
+            android:text="Planes turísticos"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/aventuraButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/turisticosButton"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:text="Aventura" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

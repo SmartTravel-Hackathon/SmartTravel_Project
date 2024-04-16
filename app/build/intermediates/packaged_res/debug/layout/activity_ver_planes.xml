@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".VerPlanes"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="20dp"
+    >
+
+    <ImageButton
+        android:id="@+id/iconoAccount"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_account"
+        app:tint="@color/gray"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/iconoPlanes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoAccount"
+        android:src="@drawable/ic_planesturisticos"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoMisViajes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoPlanes"
+        android:src="@drawable/ic_trips"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoNotificaciones"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoMisViajes"
+        android:src="@drawable/ic_notifications"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoHome"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_home"
+        app:tint="@color/green"/>
+
+
+    <LinearLayout
+        android:id="@+id/EditarPlanes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        >
+
+        <Button
+            android:id="@+id/buttonAgregarPlanes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Agregar planes"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/blue"/>
+
+        <Button
+            android:id="@+id/buttonVerPlanes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Ver planes"
+            android:backgroundTint="@color/blue"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/EditarPlanes"
+        android:layout_marginTop="1dp">
+
+        <RelativeLayout
+            android:id="@+id/primerPlan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:paddingBottom="10dp"
+            android:layout_centerHorizontal="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/collageFotos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewLarge"
+                    android:layout_width="178dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/foto3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="H,3:2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageViewSmall1"
+                    android:layout_width="194dp"
+                    android:layout_height="74dp"
+                    android:src="@drawable/foto2"
+                    app:layout_constraintBottom_toTopOf="@id/imageViewSmall2"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageViewSmall2"
+                    android:layout_width="189dp"
+                    android:layout_height="81dp"
+                    android:src="@drawable/foto1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imageViewSmall1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageButton
+                android:id="@+id/imageLoc"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/collageFotos"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_location"
+                app:tint="@color/gray"/>
+
+            <TextView
+                android:id="@+id/descripiónViaje1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/collageFotos"
+                android:layout_toRightOf="@id/imageLoc"
+                android:padding="5dp"
+                android:paddingEnd="40dp"
+                android:text="Museos"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/precioViaje1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/collageFotos"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/descripiónViaje1"
+                android:paddingStart="10dp"
+                android:text="Costo inicial: $100"
+                android:layout_alignParentEnd="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/puntosST"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/precioViaje1"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@id/descripiónViaje1"
+                android:paddingStart="10dp"
+                android:text="Gana 15 puntos"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petFriendly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/puntosST"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/descripiónViaje1"
+                android:paddingStart="10dp"
+                android:paddingBottom="10dp"
+                android:text="PET FRIENDLY"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonActualizar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/descripiónViaje1"
+                android:layout_toRightOf="@id/imageLoc"
+                android:backgroundTint="@color/green"
+                android:text="Actualizar" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/segundoPlan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primerPlan"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_border"
+            android:paddingBottom="8dp"
+            android:layout_centerHorizontal="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/collageFotos1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="10dp">
+
+                <ImageView
+                    android:id="@+id/imageViewLarge1"
+                    android:layout_width="178dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/foto3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="H,3:2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageViewSmall11"
+                    android:layout_width="194dp"
+                    android:layout_height="74dp"
+                    android:src="@drawable/foto2"
+                    app:layout_constraintBottom_toTopOf="@id/imageViewSmall22"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageViewSmall22"
+                    android:layout_width="189dp"
+                    android:layout_height="81dp"
+                    android:src="@drawable/foto1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="H,1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imageViewSmall11" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageButton
+                android:id="@+id/imageLoc1"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/collageFotos1"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:tint="@color/gray"
+                app:srcCompat="@drawable/ic_location" />
+
+            <TextView
+                android:id="@+id/descripiónViaje11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/collageFotos1"
+                android:layout_toRightOf="@id/imageLoc1"
+                android:padding="5dp"
+                android:paddingEnd="40dp"
+                android:text="Excursiones"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/precioViaje11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/collageFotos1"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@id/descripiónViaje11"
+                android:paddingStart="10dp"
+                android:text="Costo inicial: $500"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/puntosST1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/precioViaje11"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@id/descripiónViaje11"
+                android:paddingStart="10dp"
+                android:text="Gana 30 puntos"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petFriendly1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/puntosST1"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/descripiónViaje11"
+                android:paddingStart="10dp"
+                android:paddingBottom="10dp"
+                android:layout_alignParentEnd="true"
+                android:text="PET FRIENDLY"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonActualizar1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/descripiónViaje11"
+                android:layout_toRightOf="@id/imageLoc1"
+                android:backgroundTint="@color/green"
+                android:text="Actualizar" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

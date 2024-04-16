@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Notificaciones">
+
+    <TextView
+        android:id="@+id/textNotificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="30dp"
+        android:text="@string/Notificaciones"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/x" />
+
+    <RelativeLayout
+
+        android:id="@+id/Sugerencias"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="10dp"
+        android:background="@color/green"
+        android:layout_below="@+id/textNotificaciones">
+
+        <TextView
+            android:id="@+id/textSugerencias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingBottom="15dp"
+            android:text="@string/Sugerencias"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageDestino2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSugerencias"
+            app:srcCompat="@android:drawable/ic_menu_search"
+            app:tint="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViaje3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSugerencias"
+            android:layout_toRightOf="@id/imageDestino2"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/Colombia"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageFlecha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSugerencias"
+            android:layout_toRightOf="@+id/textViaje3"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            app:tint="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViaje4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSugerencias"
+            android:layout_toRightOf="@id/imageFlecha2"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="11dp"
+            android:text="@string/CostaRica"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDuracionViaje2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViaje3"
+            android:layout_toRightOf="@+id/imageDestino2"
+            android:paddingTop="5dp"
+            android:paddingStart="7dp"
+            android:text="@string/DuracionViaje2"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/buttonVerViaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textDuracionViaje2"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/white"
+            android:text="@string/VerViaje"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/blanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/buttonVerViaje"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blanco"
+            app:srcCompat="@android:drawable/ic_dialog_map"
+            app:tint="@color/black"/>
+
+        <TextView
+            android:id="@+id/textRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/blanco"
+            android:layout_toRightOf="@id/imageMapa"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/Restaurante"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textRestaurante"
+            android:layout_toRightOf="@+id/imageMapa"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/Direccion"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textPais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textDireccion"
+            android:layout_toRightOf="@+id/imageMapa"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/Colombia"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/buttonVerRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textPais"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/white"
+            android:text="@string/VerRestaurante"
+            android:textColor="@color/green" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/blanco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/Sugerencias"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+
+        android:id="@+id/NotificacionesSistema"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/blanco2"
+        android:background="@color/green"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textNotificacionesSis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingBottom="15dp"
+            android:text="@string/NotificacionesSistema"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNotificacionesSis"
+            app:srcCompat="@android:drawable/ic_dialog_alert"
+            app:tint="@color/black"/>
+
+        <TextView
+            android:id="@+id/textError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNotificacionesSis"
+            android:layout_toRightOf="@id/imageError"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/ErrorDatos"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonRevisarDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageError"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/white"
+            android:text="@string/RevisarDatos"
+            android:textColor="@color/green" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
