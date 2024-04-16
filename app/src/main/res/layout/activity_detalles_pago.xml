@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Detalles_Pago">
+
+    <TextView
+        android:id="@+id/textDetallesPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="40dp"
+        android:text="@string/DetallesPago"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/x" />
+
+    <Button
+        android:id="@+id/buttonDescargarFactura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetallesPago"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/green"
+        android:text="@string/DescargarFactura" />
+
+    <TextView
+        android:id="@+id/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDescargarFactura"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textValidacionID"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco"
+        android:text="@string/ValidacionID"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textInfoValidacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textValidacionID"
+        android:text="@string/InfoValidacion"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/blanco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInfoValidacion"
+        android:text=""
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textTotalPagado"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco2"
+        android:text="@string/TotalPagado"
+        android:paddingBottom="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textCantPago"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco2"
+        android:layout_toRightOf="@+id/textTotalPagado"
+        android:text="@string/TotalPrecio2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textVerDetallesPago"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTotalPagado"
+        android:paddingStart="30dp"
+        android:text="@string/VerDetallesPago"
+        android:textColor="@color/green"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/buttonDetallesPago"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/textTotalPagado"
+        android:layout_toRightOf="@+id/textVerDetallesPago"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/green"/>
+
+    <TextView
+        android:id="@+id/blanco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVerDetallesPago"
+        android:text=""
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textContactoPrimario"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco3"
+        android:text="@string/ContactoPrimario"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textContactoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textContactoPrimario"
+        android:paddingStart="20dp"
+        android:text="@string/NombrePerfil"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textContactoCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textContactoNombre"
+        android:paddingStart="20dp"
+        android:text="@string/Correo"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textContactoTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textContactoCorreo"
+        android:paddingStart="20dp"
+        android:text="@string/Telefono"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/blanco4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textContactoTelefono"
+        android:text=""
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageAyudaIcono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blanco4"
+        app:srcCompat="@android:drawable/stat_sys_headset"
+        app:tint="@color/black"/>
+
+    <TextView
+        android:id="@+id/textAtencionCliente"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco4"
+        android:layout_toRightOf="@+id/imageAyudaIcono"
+        android:paddingStart="10dp"
+        android:text="@string/AtencionCliente"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textResolverConsultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAtencionCliente"
+        android:paddingStart="28dp"
+        android:paddingBottom="20dp"
+        android:text="@string/ResolverConsultas"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/buttonNecesitasAyuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textResolverConsultas"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/green"
+        android:text="@string/SolicitarAyuda" />
+
+</RelativeLayout>

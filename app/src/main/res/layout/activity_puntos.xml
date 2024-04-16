@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Puntos">
+
+    <TextView
+        android:id="@+id/textPuntosSmart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="40dp"
+        android:text="@string/PuntosSmart"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/x" />
+
+    <TextView
+        android:id="@+id/textTotalPuntos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPuntosSmart"
+        android:text="@string/TotalPuntos"
+        android:paddingBottom="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNumPuntos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPuntosSmart"
+        android:layout_toRightOf="@+id/textTotalPuntos"
+        android:text="@string/NumeroPuntos"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textPrecioEquivalente"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTotalPuntos"
+        android:text="@string/PrecioEquivalente"
+        android:paddingBottom="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNumPrecio"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTotalPuntos"
+        android:layout_toRightOf="@+id/textPrecioEquivalente"
+        android:text="@string/TotalPrecio"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textRedimirPuntos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPrecioEquivalente"
+        android:paddingBottom="30dp"
+        android:text="@string/RedimirPuntos"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxViajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textRedimirPuntos"
+        android:textSize="18sp"
+        android:text="@string/Viajes" />
+
+    <TextView
+        android:id="@+id/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxViajes"
+        android:text=""
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPlanes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco"
+        android:textSize="18sp"
+        android:text="@string/PlanesTuristicos" />
+
+    <TextView
+        android:id="@+id/blanco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxPlanes"
+        android:text=""
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTransporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blanco2"
+        android:textSize="18sp"
+        android:text="@string/Transporte" />
+
+</RelativeLayout>

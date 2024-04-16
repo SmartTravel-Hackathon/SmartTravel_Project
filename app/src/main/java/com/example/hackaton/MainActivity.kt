@@ -27,7 +27,11 @@ class MainActivity : AppCompatActivity() {
         val botonPrueba3 = findViewById<Button>(R.id.button3)
         val botonPrueba4 = findViewById<Button>(R.id.button4)
         val botonPrueba5 = findViewById<Button>(R.id.button5)
+        val botonPrueba6 = findViewById<Button>(R.id.button6)
+        val botonPrueba7 = findViewById<Button>(R.id.button7)
 
+        val botonHome = findViewById<Button>(R.id.buttonHome)
+        val botonPerfil = findViewById<Button>(R.id.buttonPerfil)
 
         botonPruebaInicio.setOnClickListener {
             val intent = Intent (this, Inicio::class.java)
@@ -100,6 +104,26 @@ class MainActivity : AppCompatActivity() {
 
         botonPrueba5.setOnClickListener {
             val intent = Intent (this, Reserva_Restaurantes::class.java)
+            startActivity(intent)
+        }
+
+        botonPrueba6.setOnClickListener {
+            val intent = Intent (this, Detalles_Pago::class.java)
+            startActivity(intent)
+        }
+
+        botonPrueba7.setOnClickListener {
+            val intent = Intent (this, Notificaciones::class.java)
+            startActivity(intent)
+        }
+
+        botonHome.setOnClickListener {
+            val intent = Intent (this, HomeActivity::class.java)
+            startActivity(intent)
+        }
+
+        botonPerfil.setOnClickListener {
+            val intent = Intent (this, Perfil::class.java)
             startActivity(intent)
         }
 

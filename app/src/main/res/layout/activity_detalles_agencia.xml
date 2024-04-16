@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:padding="16dp"
     tools:context=".Detalles_Agencia">
 
     <TextView
@@ -25,22 +25,44 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/x" />
 
-    <ImageView
-        android:id="@+id/foto1"
-        android:layout_width="400dp"
-        android:layout_height="200dp"
-        android:layout_below="@id/textDetAge"
-        android:layout_centerInParent="true"
-        app:srcCompat="@drawable/det1" />
+    <TextView
+        android:id="@+id/textAgencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetAge"
+        android:paddingEnd="5dp"
+        android:text="@string/EcoTravel"
+        android:textSize="16sp"
+        android:textColor="@color/green"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAgencia"
+        android:text="@string/EcoTravelDireccion"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDireccion"
+        android:paddingBottom="30dp"
+        android:text="@string/CostaRica"
+        android:textSize="13sp" />
 
     <TextView
         android:id="@+id/detaAgencia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/foto1"
+        android:layout_below="@+id/textPais"
         android:paddingBottom="10dp"
+        android:textColor="@color/black"
         android:text="@string/Detalles"
         android:textSize="18sp" />
 
@@ -50,23 +72,69 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/detaAgencia"
         android:paddingBottom="20dp"
+        android:textColor="@color/black"
         android:text="@string/Detalles2"
         android:textSize="18sp" />
 
     <ImageView
-        android:id="@+id/foto2"
-        android:layout_width="400dp"
-        android:layout_height="200dp"
+        android:id="@+id/imageAgencia1"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/detaAgencia2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/agencia1" />
+
+    <ImageView
+        android:id="@+id/imageAgencia1.2"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
         android:layout_below="@id/detaAgencia2"
-        android:layout_centerInParent="true"
-        app:srcCompat="@drawable/det2" />
+        android:layout_toRightOf="@id/imageAgencia1"
+        android:paddingStart="8dp"
+        android:paddingBottom="4dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/agencia2" />
+
+    <ImageView
+        android:id="@+id/imageAgencia1.3"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageAgencia1.2"
+        android:layout_toRightOf="@id/imageAgencia1"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/agencia3" />
+
+    <ImageView
+        android:id="@+id/imageAgencia1.4"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/agencia4"
+        android:layout_below="@id/detaAgencia2"
+        android:layout_toRightOf="@id/imageAgencia1.2"
+        android:paddingStart="8dp"
+        android:paddingBottom="4dp"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/imageHotel1.5"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageAgencia1.4"
+        android:layout_toRightOf="@id/imageAgencia1.3"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/agencia5" />
 
     <TextView
         android:id="@+id/detaAgencia3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/foto2"
-        android:paddingBottom="20dp"
+        android:layout_below="@+id/imageAgencia1"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
         android:text="@string/Detalles3"
         android:textSize="18sp" />
 

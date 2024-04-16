@@ -28,6 +28,48 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hackaton" >
         <activity
+            android:name="com.example.hackaton.Viajes_Completados"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Viajes"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Puntos"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Perfil"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Notificaciones"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Detalles_Pago"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.InformacionCuenta"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.VerPlanes"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.AgregarPlan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Estadisticas"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.PersonalizarViaje"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.PlanesTuristicos"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.Filtro_Planes"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.hackaton.Inicio"
             android:exported="false" />
         <activity
@@ -46,7 +88,6 @@
             android:name="com.example.hackaton.Detalles_Agencia"
             android:exported="false" />
         <activity
-<<<<<<< HEAD
             android:name="com.example.hackaton.Reservar_Carro"
             android:exported="false" />
         <activity
@@ -62,8 +103,6 @@
             android:name="com.example.hackaton.Pantalla_Carga2"
             android:exported="false" />
         <activity
-=======
->>>>>>> main
             android:name="com.example.hackaton.Reserva_Restaurantes"
             android:exported="false" />
         <activity

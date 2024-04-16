@@ -1,77 +1,324 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="10dp"
-    tools:context=".Reserva_Hoteles">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textResHot"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:paddingBottom="30dp"
-        android:text="@string/ReservaHoteles"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <ImageButton
-        android:id="@+id/xButton"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/x" />
-
-    <TextView
-        android:id="@+id/textHotelesBog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textResHot"
-        android:layout_centerInParent="true"
-        android:paddingBottom="20dp"
-        android:text="@string/HotelesBogota"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/buscador"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textHotelesBog"
-        android:paddingBottom="16dp"
-        android:layout_centerInParent="true"
-        android:ems="10"
-        android:inputType="text"
-        android:text="@string/Buscardor" />
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".Reserva_Hoteles">
 
+        <TextView
+            android:id="@+id/textResHot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingBottom="30dp"
+            android:text="@string/ReservaHoteles"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/hotelBog1"
-        android:layout_width="400dp"
-        android:layout_height="250dp"
-        android:layout_below="@id/buscador"
-        android:layout_centerInParent="true"
-        app:srcCompat="@drawable/hotbog1" />
+        <ImageButton
+            android:id="@+id/xButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/x" />
 
-    <Button
-        android:id="@+id/reservar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/hotelBog1"
-        android:text="@string/Reservar" />
+        <TextView
+            android:id="@+id/textHotelesBog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textResHot"
+            android:layout_centerInParent="true"
+            android:paddingBottom="20dp"
+            android:text="@string/HotelesBogota"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/hotelBog2"
-        android:layout_width="400dp"
-        android:layout_height="250dp"
-        android:layout_below="@id/reservar"
-        android:layout_centerInParent="true"
-        app:srcCompat="@drawable/hotbog2" />
+        <EditText
+            android:id="@+id/buscador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHotelesBog"
+            android:paddingBottom="20dp"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/Buscardor" />
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imageHotel1"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/buscador"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel1" />
+
+        <ImageView
+            android:id="@+id/imageHotel1.2"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/buscador"
+            android:layout_toRightOf="@id/imageHotel1"
+            android:paddingStart="8dp"
+            android:paddingBottom="4dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel2" />
+
+        <ImageView
+            android:id="@+id/imageHotel1.3"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/imageHotel1.2"
+            android:layout_toRightOf="@id/imageHotel1"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel3" />
+
+        <ImageView
+            android:id="@+id/imageHotel1.4"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/hotel4"
+            android:layout_below="@id/buscador"
+            android:layout_toRightOf="@id/imageHotel1.2"
+            android:paddingStart="8dp"
+            android:paddingBottom="4dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageHotel1.5"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/imageHotel1.4"
+            android:layout_toRightOf="@id/imageHotel1.3"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel5" />
+
+        <ImageView
+            android:id="@+id/imageMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageHotel1"
+            app:srcCompat="@android:drawable/ic_dialog_map"
+            app:tint="@color/black"/>
+
+        <TextView
+            android:id="@+id/textHotel"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageHotel1"
+            android:layout_toRightOf="@id/imageMapa"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/Hilton"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDireccion"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHotel"
+            android:layout_toRightOf="@+id/imageMapa"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/HiltonUbicacion"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textPetFriendly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textDireccion"
+            android:layout_toRightOf="@+id/imageMapa"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/PetFriendly"
+            android:textColor="@color/green"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageHotel1"
+            android:layout_toRightOf="@id/textHotel"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/Precio"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPorNoche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHotel"
+            android:layout_toRightOf="@+id/textDireccion"
+            android:paddingStart="10dp"
+            android:text="@string/PorNoche"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/reservar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textPetFriendly"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/green"
+            android:text="@string/Reservar" />
+
+        <TextView
+            android:id="@+id/blanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/reservar"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageHotel2"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/blanco"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel6" />
+
+        <ImageView
+            android:id="@+id/imageHotel2.2"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/blanco"
+            android:layout_toRightOf="@id/imageHotel2"
+            android:paddingStart="8dp"
+            android:paddingBottom="4dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel7" />
+
+        <ImageView
+            android:id="@+id/imageHotel2.3"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/imageHotel2.2"
+            android:layout_toRightOf="@id/imageHotel2"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel8" />
+
+        <ImageView
+            android:id="@+id/imageHotel2.4"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/hotel9"
+            android:layout_below="@id/blanco"
+            android:layout_toRightOf="@id/imageHotel2.2"
+            android:paddingStart="8dp"
+            android:paddingBottom="4dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageHotel2.5"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/imageHotel2.4"
+            android:layout_toRightOf="@id/imageHotel2.3"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hotel10" />
+
+        <ImageView
+            android:id="@+id/imageMapa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageHotel2"
+            app:srcCompat="@android:drawable/ic_dialog_map"
+            app:tint="@color/black"/>
+
+        <TextView
+            android:id="@+id/textHotel2"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageHotel2"
+            android:layout_toRightOf="@id/imageMapa2"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/GrandHyatt"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDireccion2"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHotel2"
+            android:layout_toRightOf="@+id/imageMapa2"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/HyattUbicacion"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textPetFriendly2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textDireccion2"
+            android:layout_toRightOf="@+id/imageMapa2"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:text="@string/PetFriendly"
+            android:textColor="@color/green"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textPrecio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageHotel2"
+            android:layout_toRightOf="@id/textHotel2"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/Precio2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPorNoche2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHotel2"
+            android:layout_toRightOf="@+id/textDireccion2"
+            android:paddingStart="10dp"
+            android:text="@string/PorNoche"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/reservar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textPetFriendly2"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/green"
+            android:text="@string/Reservar" />
+
+    </RelativeLayout>
+</ScrollView>
