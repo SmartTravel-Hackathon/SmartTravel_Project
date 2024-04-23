@@ -9,6 +9,7 @@
     tools:context=".AgregarPlan"
     android:layout_centerHorizontal="true"
     android:paddingTop="20dp"
+    android:background="@color/white"
     >
 
     <ImageButton

@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".PersonalizarViaje"
+    tools:context=".ReservaVuelos"
     android:layout_centerHorizontal="true"
     android:paddingTop="20dp"
     android:background="@color/white"
@@ -159,7 +159,7 @@
                 android:paddingStart="15dp"
                 android:text="Vuelo 1"
                 android:textSize="18sp"
-                 />
+                />
 
             <TextView
                 android:id="@+id/destino1"
