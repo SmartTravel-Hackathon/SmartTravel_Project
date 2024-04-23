@@ -9,8 +9,9 @@ class Inicio : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.inicio)
-
-
+        findViewById<ImageButton>(R.id.imageflecha).setOnClickListener {
+            startActivity(Intent (this, Login::class.java))
+        }
 
     }
 

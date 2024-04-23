@@ -23,6 +23,26 @@ class PlanesTuristicos : AppCompatActivity() {
             startActivity(Intent(this, PersonalizarViaje::class.java))
         }
 
+        findViewById<ImageButton>(R.id.iconoMisViajes).setOnClickListener {
+            startActivity(Intent (this, Viajes::class.java))
+        }
+
+        findViewById<ImageButton>(R.id.iconoAccount).setOnClickListener {
+            startActivity(Intent (this, Perfil::class.java))
+        }
+
+        findViewById<Button>(R.id.iconoPlanes).setOnClickListener {
+            startActivity(Intent(this, PlanesTuristicos::class.java))
+        }
+
+        findViewById<Button>(R.id.iconoHome).setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.iconoNotificaciones).setOnClickListener {
+            startActivity(Intent(this, Notificaciones::class.java))
+        }
+
 
     }
 }

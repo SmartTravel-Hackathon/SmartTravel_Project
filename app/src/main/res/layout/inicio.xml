@@ -37,15 +37,15 @@
         android:textSize="34sp"
         android:textStyle="bold" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageflecha"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-
         android:layout_marginTop="616dp"
-        android:onClick="openLoginActivity"
-        android:src="@drawable/flecha" />
+        android:backgroundTint="@color/blue"
+        android:rotationY="181"
+        app:srcCompat="@drawable/ic_atras" />
 
 
 </RelativeLayout>

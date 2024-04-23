@@ -12,21 +12,46 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val botonViajes = findViewById<ImageButton>(R.id.iconoMisViajes)
-        val botonCuenta = findViewById<ImageButton>(R.id.iconoAccount)
-
-        botonViajes.setOnClickListener {
-            val intent = Intent (this, Viajes::class.java)
-            startActivity(intent)
+        findViewById<ImageButton>(R.id.iconoMisViajes).setOnClickListener {
+            startActivity(Intent (this, Viajes::class.java))
         }
 
-        botonCuenta.setOnClickListener {
-            val intent = Intent (this, Perfil::class.java)
-            startActivity(intent)
+        findViewById<ImageButton>(R.id.iconoAccount).setOnClickListener {
+            startActivity(Intent (this, Perfil::class.java))
         }
 
         findViewById<Button>(R.id.iconoPlanes).setOnClickListener {
             startActivity(Intent(this, PlanesTuristicos::class.java))
+        }
+
+        findViewById<Button>(R.id.iconoHome).setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.iconoNotificaciones).setOnClickListener {
+            startActivity(Intent(this, Notificaciones::class.java))
+        }
+
+        findViewById<Button>(R.id.botonVuelo).setOnClickListener {
+            startActivity(Intent(this, PersonalizarViaje::class.java))
+        }
+        findViewById<Button>(R.id.botonRestaurantes).setOnClickListener {
+            startActivity(Intent(this, Reserva_Restaurantes::class.java))
+        }
+        findViewById<Button>(R.id.botonHotel).setOnClickListener {
+            startActivity(Intent(this, Reserva_Hoteles::class.java))
+        }
+        findViewById<Button>(R.id.botonPlanes).setOnClickListener {
+            startActivity(Intent(this, PlanesTuristicos::class.java))
+        }
+        findViewById<Button>(R.id.botonTransporte).setOnClickListener {
+            startActivity(Intent(this, Reservar_Carro::class.java))
+        }
+        findViewById<Button>(R.id.botonAlojamiento).setOnClickListener {
+            startActivity(Intent(this, Reserva_Hoteles::class.java))
+        }
+        findViewById<Button>(R.id.agencia1).setOnClickListener {
+            startActivity(Intent(this, Detalles_Agencia::class.java))
         }
     }
 

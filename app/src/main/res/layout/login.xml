@@ -46,22 +46,33 @@
 
     <!-- Botón de inicio de sesión -->
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/loginButtonTurista"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextTextPassword"
         android:layout_marginTop="20dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Iniciar Sesión"
+        android:text="Iniciar Sesión Turista"
         android:backgroundTint="#23B894" />
+
+    <Button
+        android:id="@+id/loginButtonAgencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButtonTurista"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Iniciar Sesión Agencia"
+        android:backgroundTint="@color/blue" />
 
     <!-- Texto de "¿Aún no tienes cuenta?" -->
     <TextView
         android:id="@+id/textViewRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/loginButton"
+        android:layout_below="@id/loginButtonAgencia"
         android:layout_marginTop="24dp"
         android:layout_centerHorizontal="true"
         android:text="¿Aún no tienes cuenta?" />

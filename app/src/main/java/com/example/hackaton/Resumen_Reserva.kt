@@ -16,5 +16,9 @@ class Resumen_Reserva : AppCompatActivity(){
             startActivity(intent)
         }
 
+        findViewById<ImageButton>(R.id.buttonContinuar).setOnClickListener {
+            startActivity(Intent (this, Detalles_Pago::class.java))
+        }
+
     }
 }
