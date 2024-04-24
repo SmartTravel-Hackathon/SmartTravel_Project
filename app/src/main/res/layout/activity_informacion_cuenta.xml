@@ -7,6 +7,8 @@
     android:orientation="vertical"
     android:layout_centerHorizontal="true"
     android:paddingTop="20dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
     android:background="@color/white"
     tools:context=".InformacionCuenta">
 
@@ -73,7 +75,7 @@
     <EditText
         android:id="@+id/edit_text_agency_name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Nombre de Agencia"
         android:layout_below="@id/radio_group_user_type"
         android:layout_marginTop="16dp"
@@ -84,7 +86,7 @@
     <EditText
         android:id="@+id/edit_text_agency_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="ID de Agencia"
         android:layout_below="@id/edit_text_agency_name"
         android:layout_marginTop="8dp"
@@ -95,7 +97,7 @@
     <EditText
         android:id="@+id/edit_text_contact_number"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Número de Contacto"
         android:inputType="phone"
         android:paddingStart="20dp"
@@ -107,7 +109,7 @@
     <EditText
         android:id="@+id/edit_text_email"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Correo"
         android:inputType="textEmailAddress"
         android:paddingStart="20dp"
@@ -130,51 +132,31 @@
 
     <ImageButton
         android:id="@+id/iconoAccount"
-        android:layout_width="83dp"
+        android:layout_width="135dp"
         android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:src="@drawable/ic_account"
-        app:tint="@color/green"
+        app:tint="@color/gray"
         android:background="@android:color/white"
-        android:layout_centerHorizontal="true"/>
+        android:layout_toRightOf="@id/iconoPlanes"/>
 
     <ImageButton
         android:id="@+id/iconoPlanes"
-        android:layout_width="83dp"
+        android:layout_width="135dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoAccount"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/ic_planesturisticos"
         android:background="@android:color/white"
-        app:tint="@color/gray"/>
-
-    <ImageButton
-        android:id="@+id/iconoMisViajes"
-        android:layout_width="83dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoPlanes"
-        android:src="@drawable/ic_trips"
-        android:background="@android:color/white"
-        app:tint="@color/gray"/>
-
-    <ImageButton
-        android:id="@+id/iconoNotificaciones"
-        android:layout_width="83dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoMisViajes"
-        android:src="@drawable/ic_notifications"
-        android:background="@android:color/white"
-        app:tint="@color/gray"/>
+        app:tint="@color/green"
+        />
 
     <ImageButton
         android:id="@+id/iconoHome"
-        android:layout_width="83dp"
+        android:layout_width="135dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:layout_toStartOf="@id/iconoPlanes"
         android:background="@android:color/white"
         android:src="@drawable/ic_home"
         app:tint="@color/gray"/>

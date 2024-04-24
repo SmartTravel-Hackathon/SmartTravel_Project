@@ -16,5 +16,8 @@ class Estadisticas : AppCompatActivity() {
         findViewById<Button>(R.id.iconoAccount).setOnClickListener{
             startActivity(Intent(this, InformacionCuenta::class.java))
         }
+        findViewById<Button>(R.id.buttonEstadisticas).setOnClickListener{
+            startActivity(Intent(this, EstadisticaPorPlan::class.java))
+        }
     }
 }

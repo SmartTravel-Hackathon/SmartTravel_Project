@@ -14,54 +14,33 @@
 
     <ImageButton
         android:id="@+id/iconoAccount"
-        android:layout_width="83dp"
+        android:layout_width="135dp"
         android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:src="@drawable/ic_account"
         app:tint="@color/gray"
         android:background="@android:color/white"
-        android:layout_centerHorizontal="true"/>
+        android:layout_toRightOf="@id/iconoPlanes"/>
 
     <ImageButton
         android:id="@+id/iconoPlanes"
-        android:layout_width="83dp"
+        android:layout_width="135dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoAccount"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/ic_planesturisticos"
         android:background="@android:color/white"
-        app:tint="@color/gray"/>
-
-    <ImageButton
-        android:id="@+id/iconoMisViajes"
-        android:layout_width="83dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoPlanes"
-        android:src="@drawable/ic_trips"
-        android:background="@android:color/white"
-        app:tint="@color/gray"/>
-
-    <ImageButton
-        android:id="@+id/iconoNotificaciones"
-        android:layout_width="83dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoMisViajes"
-        android:src="@drawable/ic_notifications"
-        android:background="@android:color/white"
-        app:tint="@color/gray"/>
+        app:tint="@color/green"/>
 
     <ImageButton
         android:id="@+id/iconoHome"
-        android:layout_width="83dp"
+        android:layout_width="135dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:layout_toStartOf="@id/iconoPlanes"
         android:background="@android:color/white"
         android:src="@drawable/ic_home"
-        app:tint="@color/green"/>
+        app:tint="@color/gray"/>
 
 
     <LinearLayout

@@ -128,4 +128,9 @@
     <string name="EcoTravel">Eco Travel</string>
     <string name="EcoTravelDireccion">Avenida Huddson 23</string>
     <string name="DetallesViaje">Detalles Viaje</string>
+    <string name="museos">Museos</string>
+    <string name="por_costa_rica_tours">Por: Costa Rica Tours</string>
+    <string name="_4_5">4.5</string>
+    <string name="excelente">Excelente</string>
+    <string name="calificado_por_all_travellers_720">Calificado por all travellers (720)</string>
 </resources>
