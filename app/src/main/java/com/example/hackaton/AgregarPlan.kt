@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 
 class AgregarPlan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,11 +15,11 @@ class AgregarPlan : AppCompatActivity() {
             startActivity(Intent(this, VerPlanes::class.java))
         }
 
-        findViewById<Button>(R.id.iconoPlanes).setOnClickListener{
+        findViewById<ImageButton>(R.id.iconoPlanes).setOnClickListener{
             startActivity(Intent(this, Estadisticas::class.java))
         }
 
-        findViewById<Button>(R.id.iconoAccount).setOnClickListener{
+        findViewById<ImageButton>(R.id.iconoAccount).setOnClickListener{
             startActivity(Intent(this, InformacionCuenta::class.java))
         }
     }

@@ -1,9 +1,414 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".PersonalizarViaje">
+    android:layout_height="wrap_content"
+    tools:context=".PersonalizarViaje"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="20dp"
+    android:background="@color/white"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/iconoAccount"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_account"
+        app:tint="@color/gray"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/iconoPlanes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoAccount"
+        android:src="@drawable/ic_planesturisticos"
+        android:background="@android:color/white"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/iconoMisViajes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoPlanes"
+        android:src="@drawable/ic_trips"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoNotificaciones"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoMisViajes"
+        android:src="@drawable/ic_notifications"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoHome"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_home"
+        app:tint="@color/gray"/>
+
+
+    <LinearLayout
+        android:id="@+id/opcionesPlanes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        >
+
+        <Button
+            android:id="@+id/buttonPlanesTuristicos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Planes turísticos"
+            android:textColor="@color/blue"
+            android:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/buttonPersonalizaViaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Personaliza tu viaje"
+            android:backgroundTint="@color/blue" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/buscarDestino"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:text="Reserva el transporte que necesitas:"
+        android:layout_below="@id/opcionesPlanes"
+        android:paddingStart="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buscarDestino"
+        android:layout_marginTop="1dp">
+
+        <RelativeLayout
+            android:id="@+id/primerPlan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:paddingBottom="10dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/imageLoc"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/vuelo1"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                android:rotationX="177"
+                app:srcCompat="@drawable/ic_avion"
+                app:tint="@color/blue" />
+
+            <ImageButton
+                android:id="@+id/imageLoc2"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageLoc"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_location"
+                app:tint="@color/blue"/>
+
+            <ImageButton
+                android:id="@+id/imageLoc3"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageLoc2"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_maleta"
+                app:tint="@color/blue"/>
+
+            <TextView
+                android:id="@+id/vuelo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:text="Vuelo 1"
+                android:textSize="18sp"
+                 />
+
+            <TextView
+                android:id="@+id/destino1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/vuelo1"
+                android:layout_toRightOf="@id/imageLoc"
+                android:paddingStart="10dp"
+                android:text="BOG"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/desDestino1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/vuelo1"
+                android:layout_toRightOf="@id/destino1"
+                android:paddingStart="10dp"
+                android:text="Bogotá, Colombia"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/destino2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/destino1"
+                android:gravity="center"
+                android:layout_toRightOf="@id/imageLoc"
+                android:paddingStart="10dp"
+                android:text="SJO"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desDestino2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/destino1"
+                android:layout_toRightOf="@id/destino2"
+                android:paddingStart="10dp"
+                android:text="San José, Costa Rica"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/salida"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/destino2"
+                android:layout_toRightOf="@id/imageLoc"
+                android:paddingStart="10dp"
+                android:text="Salida"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/salida"
+                android:layout_toRightOf="@id/imageLoc"
+                android:paddingStart="10dp"
+                android:text="9 junio 2024"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/vuelo1"
+                android:background="?android:attr/listDivider" />
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/destino1"
+                android:background="?android:attr/listDivider" />
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/destino2"
+                android:background="?android:attr/listDivider" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/segundoPlan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primerPlan"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_border"
+            android:paddingBottom="8dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/imageLoc1"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/vuelo11"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                android:rotationX="177"
+                app:srcCompat="@drawable/ic_avion"
+                app:tint="@color/blue" />
+
+            <ImageButton
+                android:id="@+id/imageLoc22"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageLoc1"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_location"
+                app:tint="@color/blue"/>
+
+            <ImageButton
+                android:id="@+id/imageLoc33"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageLoc22"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_maleta"
+                app:tint="@color/blue"/>
+
+            <TextView
+                android:id="@+id/vuelo11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:text="Vuelo 2"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/destino11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/vuelo11"
+                android:layout_toRightOf="@id/imageLoc1"
+                android:paddingStart="10dp"
+                android:text="SJO"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/desDestino11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/vuelo11"
+                android:layout_toRightOf="@id/destino11"
+                android:paddingStart="10dp"
+                android:text="San José, Costa Rica"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/destino22"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/destino11"
+                android:gravity="center"
+                android:layout_toRightOf="@id/imageLoc1"
+                android:paddingStart="10dp"
+                android:text="LIB"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desDestino22"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/destino11"
+                android:layout_toRightOf="@id/destino22"
+                android:paddingStart="10dp"
+                android:text="Liberia, Costa Rica"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/salida1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/destino22"
+                android:layout_toRightOf="@id/imageLoc1"
+                android:paddingStart="10dp"
+                android:text="Salida"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fecha1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/salida1"
+                android:layout_toRightOf="@id/imageLoc1"
+                android:paddingStart="10dp"
+                android:text="13 junio 2024"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/divider0"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/vuelo11"
+                android:background="?android:attr/listDivider" />
+            <View
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/destino11"
+                android:background="?android:attr/listDivider" />
+            <View
+                android:id="@+id/divider22"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/destino22"
+                android:background="?android:attr/listDivider" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/buscar"
+            android:layout_below="@id/espacio"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/green"/>
+
+        <Space
+            android:id="@+id/espacio"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/segundoPlan"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

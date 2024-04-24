@@ -11,6 +11,13 @@ class Detalles_Pago : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detalles_pago)
 
+        val botonVolver = findViewById<ImageButton>(R.id.xButton)
+
+        botonVolver.setOnClickListener {
+            val intent = Intent (this, HomeActivity::class.java)
+            startActivity(intent)
+        }
+
         findViewById<TextView>(R.id.textVerDetallesPago).setOnClickListener {
             startActivity(Intent (this, Pagar::class.java))
         }

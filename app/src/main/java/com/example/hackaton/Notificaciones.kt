@@ -13,7 +13,7 @@ class Notificaciones : AppCompatActivity() {
         val botonVolver = findViewById<ImageButton>(R.id.xButton)
 
         botonVolver.setOnClickListener {
-            val intent = Intent (this, MainActivity::class.java)
+            val intent = Intent (this, HomeActivity::class.java)
             startActivity(intent)
         }
     }

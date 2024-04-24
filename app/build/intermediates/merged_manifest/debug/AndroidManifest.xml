@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hackaton" >
         <activity
+            android:name="com.example.hackaton.EstadisticaPorPlan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hackaton.ReservaVuelos"
+            android:exported="false" />
+        <activity
             android:name="com.example.hackaton.Viajes_Completados"
             android:exported="false" />
         <activity

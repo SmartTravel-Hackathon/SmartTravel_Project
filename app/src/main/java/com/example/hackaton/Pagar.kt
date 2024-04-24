@@ -13,7 +13,7 @@ class Pagar : AppCompatActivity(){
         val botonVolver = findViewById<ImageButton>(R.id.Buttonx1)
 
         botonVolver.setOnClickListener {
-            val intent = Intent (this, MainActivity::class.java)
+            val intent = Intent (this, HomeActivity::class.java)
             startActivity(intent)
         }
 

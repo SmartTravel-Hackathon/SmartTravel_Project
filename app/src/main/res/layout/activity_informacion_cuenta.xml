@@ -130,6 +130,18 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#23B894" />
 
+    <Button
+        android:id="@+id/button_cerrar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Cerrar sesión"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_below="@id/button_actualizar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue" />
+
     <ImageButton
         android:id="@+id/iconoAccount"
         android:layout_width="135dp"

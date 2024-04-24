@@ -11,7 +11,7 @@ class PlanesTuristicos : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_planes_turisticos)
 
-        findViewById<Button>(R.id.iconoHome).setOnClickListener {
+        findViewById<ImageButton>(R.id.iconoHome).setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
         }
 
@@ -31,15 +31,15 @@ class PlanesTuristicos : AppCompatActivity() {
             startActivity(Intent (this, Perfil::class.java))
         }
 
-        findViewById<Button>(R.id.iconoPlanes).setOnClickListener {
+        findViewById<ImageButton>(R.id.iconoPlanes).setOnClickListener {
             startActivity(Intent(this, PlanesTuristicos::class.java))
         }
 
-        findViewById<Button>(R.id.iconoHome).setOnClickListener {
+        findViewById<ImageButton>(R.id.iconoHome).setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
         }
 
-        findViewById<Button>(R.id.iconoNotificaciones).setOnClickListener {
+        findViewById<ImageButton>(R.id.iconoNotificaciones).setOnClickListener {
             startActivity(Intent(this, Notificaciones::class.java))
         }
 

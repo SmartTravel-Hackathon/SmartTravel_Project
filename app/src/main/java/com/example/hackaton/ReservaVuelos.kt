@@ -16,12 +16,12 @@ class ReservaVuelos : AppCompatActivity() {
             startActivity(intent)
         }
 
-        findViewById<ImageButton>(R.id.ordenar).setOnClickListener {
+        findViewById<Button>(R.id.ordenar).setOnClickListener {
             val intent = Intent (this, Ordenar_Por::class.java)
             startActivity(intent)
         }
 
-        findViewById<ImageButton>(R.id.filtrar).setOnClickListener {
+        findViewById<Button>(R.id.filtrar).setOnClickListener {
             val intent = Intent (this, Filtro_Vuelos::class.java)
             startActivity(intent)
         }
@@ -34,15 +34,15 @@ class ReservaVuelos : AppCompatActivity() {
             startActivity(Intent (this, Perfil::class.java))
         }
 
-        findViewById<Button>(R.id.iconoPlanes).setOnClickListener {
+        findViewById<ImageButton>(R.id.iconoPlanes).setOnClickListener {
             startActivity(Intent(this, PlanesTuristicos::class.java))
         }
 
-        findViewById<Button>(R.id.iconoHome).setOnClickListener {
+        findViewById<ImageButton>(R.id.iconoHome).setOnClickListener {
             startActivity(Intent(this, HomeActivity::class.java))
         }
 
-        findViewById<Button>(R.id.iconoNotificaciones).setOnClickListener {
+        findViewById<ImageButton>(R.id.iconoNotificaciones).setOnClickListener {
             startActivity(Intent(this, Notificaciones::class.java))
         }
     }

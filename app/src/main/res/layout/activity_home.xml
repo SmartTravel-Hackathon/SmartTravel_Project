@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     tools:context=".HomeActivity"
     android:layout_centerHorizontal="true"
-    android:background="#8FA6EAF3"
+    android:background="@drawable/fondo"
     android:paddingTop="20dp">
 
     <EditText
@@ -304,7 +304,7 @@
                 android:layout_height="139dp"
                 android:layout_below="@id/recomendacionesViajes"
                 android:padding="5dp"
-                tools:srcCompat="@drawable/tourCol" />
+                app:srcCompat="@drawable/tourcol" />
 
             <TextView
                 android:id="@+id/descripiónViaje1"
@@ -333,7 +333,7 @@
                 android:layout_below="@id/recomendacionesViajes"
                 android:layout_toRightOf="@id/imagenViaje1"
                 android:padding="5dp"
-                tools:srcCompat="@drawable/tourCR" />
+                app:srcCompat="@drawable/tourcr" />
 
             <TextView
                 android:id="@+id/descricpiónViaje2"
@@ -360,11 +360,18 @@
 
         </RelativeLayout>
 
+        <View
+            android:id="@+id/espacio"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/grupoRecomendaciones"
+            android:background="@color/white"/>
+
         <RelativeLayout
             android:id="@+id/agencias"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/grupoRecomendaciones"
+            android:layout_below="@id/espacio"
             android:background="@color/white"
             android:paddingEnd="20dp"
             android:paddingStart="20dp"
@@ -420,10 +427,17 @@
 
         </RelativeLayout>
 
+        <View
+            android:id="@+id/espacio1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/agencias"
+            android:background="@color/white"/>
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/agencias"
+            android:layout_height="210dp"
+            android:layout_below="@id/espacio1"
             android:background="@color/white"
             android:paddingEnd="20dp"
             android:paddingStart="20dp"
@@ -442,7 +456,7 @@
                 android:layout_width="169dp"
                 android:layout_height="139dp"
                 android:layout_below="@id/beneficiosOfertas"
-                tools:srcCompat="@drawable/beneficio1" />
+                app:srcCompat="@drawable/beneficio1" />
 
             <ImageView
                 android:id="@+id/imagenBeneficio2"
@@ -450,7 +464,7 @@
                 android:layout_height="139dp"
                 android:layout_below="@id/beneficiosOfertas"
                 android:layout_toRightOf="@id/imagenBeneficio1"
-                tools:srcCompat="@drawable/beneficio2" />
+                app:srcCompat="@drawable/beneficio2" />
 
 
         </RelativeLayout>

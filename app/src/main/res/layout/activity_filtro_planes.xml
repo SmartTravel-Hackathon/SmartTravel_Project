@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     tools:context=".Filtro_Planes"
     android:layout_centerHorizontal="true"
-    android:background="#8FA6EAF3"
+    android:background="@drawable/fondo"
     android:paddingTop="80dp">
 
     <RelativeLayout

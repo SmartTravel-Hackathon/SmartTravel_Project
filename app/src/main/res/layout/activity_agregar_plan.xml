@@ -30,7 +30,7 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/ic_planesturisticos"
         android:background="@android:color/white"
-        app:tint="@color/green"/>
+        app:tint="@color/gray"/>
 
     <ImageButton
         android:id="@+id/iconoHome"
@@ -40,7 +40,7 @@
         android:layout_toStartOf="@id/iconoPlanes"
         android:background="@android:color/white"
         android:src="@drawable/ic_home"
-        app:tint="@color/gray"/>
+        app:tint="@color/green"/>
 
 
     <LinearLayout
