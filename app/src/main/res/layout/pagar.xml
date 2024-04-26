@@ -15,6 +15,7 @@
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:backgroundTint="@color/white"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/x" />
 
@@ -62,16 +63,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/space1"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Método de Pago"
+        android:textSize="16sp"
         android:textStyle="bold" />
-
+    <RelativeLayout
+        android:id="@+id/metodo_pago"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMetodoPago"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_border"
+        android:paddingBottom="4dp"
+        android:layout_centerHorizontal="true">
     <!-- Método de pago: Tarjeta de crédito/débito -->
     <TextView
         android:id="@+id/textViewTarjeta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewMetodoPago"
+
         android:layout_marginTop="16dp"
         android:text="Tarjeta de crédito/débito" />
 
@@ -80,7 +91,8 @@
         android:id="@+id/imageViewTarjeta"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_below="@id/textViewMetodoPago"
+
+        android:backgroundTint="@color/white"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="8dp"
         android:scaleType="fitXY"
@@ -93,13 +105,24 @@
         android:layout_height="16dp"
         android:layout_below="@id/imageViewTarjeta"
         android:background="@android:color/transparent" />
-
+    </RelativeLayout>
     <!-- Método de pago: PSE -->
+
+
+    <RelativeLayout
+        android:id="@+id/mPuntos"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/metodo_pago"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_border"
+        android:paddingBottom="4dp"
+        android:layout_centerHorizontal="true">
     <TextView
         android:id="@+id/textViewPSE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/space2"
+
         android:layout_marginTop="16dp"
         android:text="PSE" />
 
@@ -108,10 +131,11 @@
         android:id="@+id/imageViewPSE"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_below="@id/space2"
+
         android:layout_alignParentEnd="true"
         android:layout_marginTop="8dp"
         android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/flechapago" />
 
     <!-- Espacio entre PSE y Puntos SmartTravel -->
@@ -121,13 +145,22 @@
         android:layout_height="16dp"
         android:layout_below="@id/imageViewPSE"
         android:background="@android:color/transparent" />
-
+    </RelativeLayout>
     <!-- Método de pago: Puntos SmartTravel -->
+    <RelativeLayout
+        android:id="@+id/mPSE"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mPuntos"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_border"
+        android:paddingBottom="4dp"
+        android:layout_centerHorizontal="true">
     <TextView
         android:id="@+id/textViewPuntos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/space3"
+
         android:layout_marginTop="16dp"
         android:text="Puntos SmartTravel" />
 
@@ -136,18 +169,19 @@
         android:id="@+id/Buttonx3"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_below="@id/space3"
+
         android:layout_alignParentEnd="true"
         android:layout_marginTop="8dp"
         android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
         app:srcCompat="@drawable/flechapago" />
-
+    </RelativeLayout>
     <!-- Texto de acuerdo de privacidad y términos de servicio -->
     <TextView
         android:id="@+id/textViewPoliticas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Buttonx3"
+        android:layout_below="@+id/mPSE"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
