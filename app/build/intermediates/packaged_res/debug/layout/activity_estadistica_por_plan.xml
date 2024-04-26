@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".EstadisticaPorPlan"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="20dp"
+    android:background="@color/white"
+    >
+
+    <ImageButton
+        android:id="@+id/iconoAccount"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_account"
+        app:tint="@color/gray"
+        android:background="@android:color/white"
+        android:layout_toEndOf="@id/iconoPlanes"/>
+
+    <ImageButton
+        android:id="@+id/iconoPlanes"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_planesturisticos"
+        android:background="@android:color/white"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/iconoHome"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoPlanes"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_home"
+        app:tint="@color/gray"/>
+
+    <TextView
+        android:id="@+id/textFiltros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/museos"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textorigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textFiltros"
+        android:text="@string/por_costa_rica_tours"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/x"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentStart="true"
+        />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/textorigen"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Space
+        android:id="@+id/espacio"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/divider3"
+        />
+
+    <RelativeLayout
+        android:id="@+id/opcionesPlanes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/espacio"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        >
+
+        <TextView
+            android:id="@+id/calificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:text="@string/_4_5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background = "@color/blue"/>
+
+        <TextView
+            android:id="@+id/categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:paddingStart="10dp"
+            android:text="@string/excelente"
+            android:textColor="@color/blue"
+            android:layout_toEndOf="@id/calificacion"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/publico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:paddingStart="10dp"
+            android:text="@string/calificado_por_all_travellers_720"
+            android:layout_below="@id/categoria"
+            android:layout_toEndOf="@id/calificacion"
+            tools:ignore="RtlSymmetry" />
+
+        <Space
+            android:id="@+id/espacio1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/calificacion"
+            />
+
+        <TextView
+            android:id="@+id/hospitalidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="Hospitalidad"
+            android:layout_below="@id/espacio1"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/puntajeHospitalidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="4.6"
+            android:textStyle="bold"
+            android:layout_alignEnd="@id/progressBarHospitalidad"
+            android:layout_below="@id/espacio1"
+            tools:ignore="RtlSymmetry" />
+
+        <ProgressBar
+            android:id="@+id/progressBarHospitalidad"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hospitalidad"
+            android:max="50"
+            android:progress="46"
+            />
+
+        <TextView
+            android:id="@+id/comodidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="Comodidades"
+            android:layout_alignStart="@id/progressBarComodidades"
+            android:layout_toRightOf="@id/hospitalidad"
+            android:layout_below="@id/espacio1"
+            />
+
+        <TextView
+            android:id="@+id/puntajeComodidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="4.4"
+            android:textStyle="bold"
+            android:layout_alignEnd="@id/progressBarComodidades"
+            android:layout_below="@id/espacio1"
+            tools:ignore="RtlSymmetry" />
+
+        <ProgressBar
+            android:id="@+id/progressBarComodidades"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hospitalidad"
+            android:layout_alignParentEnd="true"
+            android:max="50"
+            android:progress="44"
+            />
+
+        <Space
+            android:id="@+id/espacio2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/progressBarComodidades"
+            />
+
+        <TextView
+            android:id="@+id/alimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="Alimento"
+            android:layout_below="@id/espacio2"
+            />
+
+        <TextView
+            android:id="@+id/puntajeAlimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="4.5"
+            android:textStyle="bold"
+            android:layout_alignEnd="@id/progressBarAlimento"
+            android:layout_below="@id/espacio2"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBarAlimento"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alimento"
+            android:max="50"
+            android:progress="45"
+            />
+
+        <TextView
+            android:id="@+id/Habitacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="Habitación"
+            android:layout_alignStart="@id/progressBarComodidades"
+            android:layout_toRightOf="@id/alimento"
+            android:layout_below="@id/espacio2"
+            />
+
+        <TextView
+            android:id="@+id/puntajeHabitacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="4.4"
+            android:textStyle="bold"
+            android:layout_alignEnd="@id/progressBarHabitacion"
+            android:layout_below="@id/espacio2"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBarHabitacion"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Habitacion"
+            android:layout_alignParentEnd="true"
+            android:max="50"
+            android:progress="44"
+            />
+
+        <Space
+            android:id="@+id/espacio3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/progressBarAlimento"
+            />
+
+        <TextView
+            android:id="@+id/limpieza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="Limpieza"
+            android:layout_below="@id/espacio3"
+            />
+
+        <TextView
+            android:id="@+id/puntajeLimpieza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="4.6"
+            android:textStyle="bold"
+            android:layout_alignEnd="@id/progressBarLimpieza"
+            android:layout_below="@id/espacio3"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBarLimpieza"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/limpieza"
+            android:max="50"
+            android:progress="46"
+            />
+
+        <TextView
+            android:id="@+id/Precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="Precio"
+            android:layout_alignStart="@id/progressBarPrecio"
+            android:layout_toRightOf="@id/limpieza"
+            android:layout_below="@id/espacio3"
+            />
+
+        <TextView
+            android:id="@+id/puntajePrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:text="4.3"
+            android:textStyle="bold"
+            android:layout_alignEnd="@id/progressBarPrecio"
+            android:layout_below="@id/espacio3"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBarPrecio"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Precio"
+            android:layout_alignParentEnd="true"
+            android:max="50"
+            android:progress="43"
+            />
+
+        <Space
+            android:id="@+id/espacio4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/progressBarLimpieza"
+            />
+
+        <TextView
+            android:id="@+id/reseña"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/espacio4"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="4.5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background = "@color/green"/>
+
+        <TextView
+            android:id="@+id/actorReseña"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:text="Calificado por Rafael · Solo · Dic 06, 2023 · 24 años"
+            android:layout_below="@id/espacio4"
+            android:layout_toRightOf="@id/reseña"
+            />
+
+        <TextView
+            android:id="@+id/comentarioReseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:padding="10dp"
+            android:text="El hotel ofrece una variedad de comodidades como gimnasio, piscina, spa y Wi-Fi de cortesía, lo que mejora la experiencia general de los huéspedes."
+            android:layout_below="@id/reseña"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/hotel4"
+            android:layout_below="@id/comentarioReseña"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/hotel2"
+            android:layout_toRightOf="@id/imageView"
+            android:layout_below="@id/comentarioReseña"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/hotel5"
+            android:layout_toRightOf="@id/imageView1"
+            android:layout_below="@id/comentarioReseña"/>
+
+        <TextView
+            android:id="@+id/verificacion"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="13sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:text="Visitante verificado"
+            android:layout_below="@id/imageView2"
+            />
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_below="@id/verificacion"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <Space
+            android:id="@+id/espacio5"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/divider4"
+            />
+
+        <TextView
+            android:id="@+id/reseña1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/espacio5"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="5.0"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background = "@color/green"/>
+
+        <TextView
+            android:id="@+id/actorReseña1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:text="Calificado por Natalia· Pareja · Ene 14, 2024 · 35 años"
+            android:layout_below="@id/espacio5"
+            android:layout_toRightOf="@id/reseña1"
+            />
+
+        <TextView
+            android:id="@+id/comentarioReseña1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:padding="10dp"
+            android:text="Los miembros del personal del hotel son acogedores, corteses y siempre están listos para ayudar con cualquier solicitud o consulta."
+            android:layout_below="@id/reseña1"
+            />
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/hotel7"
+            android:layout_below="@id/comentarioReseña1"/>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/hotel8"
+            android:layout_toRightOf="@id/imageView0"
+            android:layout_below="@id/comentarioReseña1"/>
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/hotel10"
+            android:layout_toRightOf="@id/imageView11"
+            android:layout_below="@id/comentarioReseña1"/>
+
+        <TextView
+            android:id="@+id/verificacion1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="13sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:text="Visitante verificado"
+            android:layout_below="@id/imageView22"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
