@@ -1,5 +1,6 @@
 package com.example.hackaton
 
+import Pantalla_Carga2
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
@@ -13,7 +14,7 @@ class Pagar : AppCompatActivity(){
         val botonVolver = findViewById<ImageButton>(R.id.Buttonx1)
 
         botonVolver.setOnClickListener {
-            val intent = Intent (this, HomeActivity::class.java)
+            val intent = Intent (this, Pantalla_Carga2::class.java)
             startActivity(intent)
         }
 
