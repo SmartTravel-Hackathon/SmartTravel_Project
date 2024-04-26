@@ -81,23 +81,45 @@
         android:layout_below="@id/textViewTelefonoViajero"
         android:background="@android:color/transparent" />
 
+
+<RelativeLayout
+
+android:id="@+id/reserva"
+android:layout_width="400dp"
+android:layout_height="wrap_content"
+android:layout_below="@+id/spaceViajeroDetalle"
+android:layout_marginTop="8dp"
+android:background="@drawable/button_border"
+android:paddingBottom="20dp"
+android:layout_centerHorizontal="true"
+    tools:ignore="InvalidId">
     <!-- Título "Detalle del Vuelo" -->
     <TextView
         android:id="@+id/textViewTituloDetalleVuelo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/spaceViajeroDetalle"
+
         android:layout_centerHorizontal="true"
         android:text="Detalle del Vuelo"
         android:textSize="20sp"
         android:textStyle="bold" />
+    <RelativeLayout
 
+        android:id="@+id/reserva1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTituloDetalleVuelo"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_border"
+        android:paddingBottom="8dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="InvalidId">
     <!-- Texto "BOG a SJO" -->
     <TextView
         android:id="@+id/textViewRutaVuelo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewTituloDetalleVuelo"
+
         android:layout_centerHorizontal="true"
         android:text="BOG a SJO" />
 
@@ -108,7 +130,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewRutaVuelo"
         android:text="Vistara | UK 933"
-        android:layout_marginEnd="8dp" />
+        android:layout_marginEnd="10dp" />
 
     <!-- Texto "112.5" -->
     <TextView
@@ -199,26 +221,42 @@
         android:layout_below="@id/textViewAeropuertoLlegadaNombre"
         android:layout_alignParentEnd="true"
         android:text="Sat, 10 Jun 23" />
-
+</RelativeLayout>
+</RelativeLayout>
     <!-- Espacio después de la sección de detalles del vuelo -->
+
+
+<RelativeLayout
+android:id="@+id/totalcom"
+android:layout_width="400dp"
+android:layout_height="wrap_content"
+android:layout_below="@+id/reserva"
+android:layout_marginTop="8dp"
+android:background="@drawable/button_border"
+android:paddingBottom="8dp"
+android:layout_centerHorizontal="true">
+    <!-- Título "Detalles Compra" -->
     <View
         android:id="@+id/spaceDetalleCompra"
         android:layout_width="match_parent"
+
         android:layout_height="20dp"
-        android:layout_below="@id/textViewFechaVueloLlegada"
+         android:layout_marginTop="74dp"
+        android:layout_centerHorizontal="true"
         android:background="@android:color/transparent" />
 
-    <!-- Título "Detalles Compra" -->
+    <!-- Texto "Vuelos" -->
     <TextView
         android:id="@+id/textViewTituloDetalleCompra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/spaceDetalleCompra"
+        android:layout_marginTop="-86dp"
+        android:layout_centerHorizontal="true"
         android:text="Detalles Compra"
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <!-- Texto "Vuelos" -->
     <TextView
         android:id="@+id/textViewVuelos"
         android:layout_width="wrap_content"
@@ -297,6 +335,14 @@
         android:layout_height="10dp"
         android:layout_below="@id/textViewPrecioCostosGestion"
         android:background="@android:color/transparent" />
+    <!-- Línea recta -->
+    <View
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/spaceDetalleCompraTotal"
+
+        android:background="@android:color/black" />
 
     <!-- Texto "Puntos" -->
     <TextView
@@ -333,13 +379,13 @@
         android:layout_below="@id/textViewCantidadPuntos"
         android:layout_alignParentEnd="true"
         android:text="$442.5" />
-
+</RelativeLayout>
     <!-- Botón "Continuar" -->
     <Button
         android:id="@+id/buttonContinuar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewPrecioTotal"
+        android:layout_below="@+id/totalcom"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Continuar"
