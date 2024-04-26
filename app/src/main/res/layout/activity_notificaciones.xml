@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="20dp"
     android:background="@color/white"
     tools:context=".Notificaciones">
 
@@ -19,23 +20,13 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <ImageButton
-        android:id="@+id/xButton"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
-        android:backgroundTint="@color/white"
-        app:srcCompat="@drawable/x" />
-
     <RelativeLayout
 
         android:id="@+id/Sugerencias"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:padding="10dp"
-        android:background="@color/green"
+        android:background="@color/lightgreen"
         android:layout_below="@+id/textNotificaciones">
 
         <TextView
@@ -191,7 +182,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_below="@+id/blanco2"
-        android:background="@color/green"
+        android:background="@color/lightgreen"
         android:padding="10dp">
 
         <TextView
@@ -238,5 +229,56 @@
             android:textColor="@color/green" />
 
     </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/iconoAccount"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_account"
+        app:tint="@color/gray"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/iconoPlanes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoAccount"
+        android:src="@drawable/ic_planesturisticos"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoMisViajes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoPlanes"
+        android:src="@drawable/ic_trips"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoNotificaciones"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoMisViajes"
+        android:src="@drawable/ic_notifications"
+        android:background="@android:color/white"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/iconoHome"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_home"
+        app:tint="@color/gray"/>
 
 </RelativeLayout>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="20dp"
     android:background="@color/white"
     tools:context=".Perfil">
 
@@ -190,7 +191,7 @@
         android:paddingEnd="20dp"
         android:layout_below="@id/iconoConfiguracion"
         android:layout_marginTop="16dp"
-        android:backgroundTint="@color/blue" />
+        android:backgroundTint="@color/green" />
 
 
     <ImageButton

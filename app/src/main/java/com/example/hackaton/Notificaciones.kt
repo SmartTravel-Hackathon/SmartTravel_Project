@@ -10,11 +10,25 @@ class Notificaciones : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_notificaciones)
 
-        val botonVolver = findViewById<ImageButton>(R.id.xButton)
-
-        botonVolver.setOnClickListener {
-            val intent = Intent (this, HomeActivity::class.java)
-            startActivity(intent)
+        findViewById<ImageButton>(R.id.iconoMisViajes).setOnClickListener {
+            startActivity(Intent (this, Viajes::class.java))
         }
+
+        findViewById<ImageButton>(R.id.iconoAccount).setOnClickListener {
+            startActivity(Intent (this, Perfil::class.java))
+        }
+
+        findViewById<ImageButton>(R.id.iconoPlanes).setOnClickListener {
+            startActivity(Intent(this, PlanesTuristicos::class.java))
+        }
+
+        findViewById<ImageButton>(R.id.iconoHome).setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
+
+        findViewById<ImageButton>(R.id.iconoNotificaciones).setOnClickListener {
+            startActivity(Intent(this, Notificaciones::class.java))
+        }
+
     }
 }
