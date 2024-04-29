@@ -8,6 +8,16 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textNombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7"
+        android:layout_marginTop="103dp"
+        android:text="Filtrado"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/text_pantallaprueba"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -191,8 +201,26 @@
         android:text="Perfil"
         android:backgroundTint="#23B894"/>
 
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNombre3"
+        android:layout_marginTop="-102dp"
+        android:backgroundTint="#23B894"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/buttonFiltrados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FiltradosText"
+        android:layout_marginTop="107dp"
+        android:backgroundTint="#23B894"
+        android:text="FiltrosImplementados" />
+
     <TextView
-        android:id="@+id/textNombre3"
+        android:id="@+id/FiltradosText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button7"
@@ -200,12 +228,6 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/buttonHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textNombre3"
-        android:text="Home"
-        android:backgroundTint="#23B894"/>
+
 
 </RelativeLayout>

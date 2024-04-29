@@ -45,5 +45,8 @@ class ReservaVuelos : AppCompatActivity() {
         findViewById<ImageButton>(R.id.iconoNotificaciones).setOnClickListener {
             startActivity(Intent(this, Notificaciones::class.java))
         }
+
+
+
     }
 }

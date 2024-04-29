@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_detalles_agencia.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_detalles_agencia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\registrarse_turista.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\registrarse_turista.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_filtro_planes.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_filtro_planes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\resumen_reserva.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\resumen_reserva.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\datos_viajero.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\datos_viajero.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-mergeDebugResources-46:/layout/activity_vuelos_wingo.xml",
+        "source": "com.example.hackaton.app-main-49:/layout/activity_vuelos_wingo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_viajes_completados.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_viajes_completados.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\pagar.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\pagar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_vuelos_avianca.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_vuelos_avianca.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-mergeDebugResources-46:/layout/content_vuelos_wingo.xml",
+        "source": "com.example.hackaton.app-main-49:/layout/content_vuelos_wingo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_reserva_restaurantes.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_reserva_restaurantes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_personalizar_viaje.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_personalizar_viaje.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_viajes.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_viajes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_informacion_cuenta.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_informacion_cuenta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_reserva_hoteles.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_reserva_hoteles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_estadisticas.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_estadisticas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_reserva_vuelos.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_reserva_vuelos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\registrarse_agencia.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\registrarse_agencia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_ordenar_por.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_ordenar_por.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_estadistica_por_plan.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_estadistica_por_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_planes_turisticos.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_planes_turisticos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\login.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_perfil.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\reservar_carro.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\reservar_carro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_filtro_vuelos.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_filtro_vuelos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\content_vuelos_avianca.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\content_vuelos_avianca.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_ver_planes.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_ver_planes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\pantalla_carga2.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\pantalla_carga2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_puntos.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_puntos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\inicio.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\pantalla_carga.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\pantalla_carga.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_agregar_plan.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_agregar_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_detalles_pago.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_detalles_pago.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-mergeDebugResources-46:\\layout\\activity_notificaciones.xml",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_notificaciones.xml"
+    }
+]

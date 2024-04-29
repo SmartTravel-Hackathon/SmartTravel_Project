@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hackaton.app-mergeDebugResources-29:/values-v23/values-v23.xml",
+            "outputFile": "com.example.hackaton.app-mergeDebugResources-45:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Luis Alejandro\\.gradle\\caches\\transforms-3\\425c79b41c5100e4c9e6d62d316150ce\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
@@ -23,6 +23,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Luis Alejandro\\Desktop\\SmartTravel_Project\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "430"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "3382",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3698"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Luis Alejandro\\.gradle\\caches\\transforms-3\\56af212e940d1f2bde023f0cf7bfa9c5\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
@@ -33,12 +52,12 @@
                         "endOffsets": "266,408,569,779,986,1193,1396,1598,1863,2136"
                     },
                     "to": {
-                        "startLines": "53,56,60,64,67,70,73,76,79,83",
+                        "startLines": "59,62,66,70,73,76,79,82,85,89",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3382,3598,3740,3901,4111,4318,4525,4728,4930,5195",
-                        "endLines": "55,59,63,66,69,72,75,78,82,86",
+                        "startOffsets": "3703,3919,4061,4222,4432,4639,4846,5049,5251,5516",
+                        "endLines": "61,65,69,72,75,78,81,84,88,92",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3593,3735,3896,4106,4313,4520,4723,4925,5190,5463"
+                        "endOffsets": "3914,4056,4217,4427,4634,4841,5044,5246,5511,5784"
                     }
                 },
                 {

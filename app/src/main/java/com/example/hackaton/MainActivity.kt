@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         val botonHome = findViewById<Button>(R.id.buttonHome)
         val botonPerfil = findViewById<Button>(R.id.buttonPerfil)
+        val botonFiltrados1 = findViewById<Button>(R.id.buttonFiltrados)
 
         botonPruebaInicio.setOnClickListener {
             val intent = Intent (this, Inicio::class.java)
@@ -127,6 +128,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent (this, Perfil::class.java)
             startActivity(intent)
         }
+
+
+        botonFiltrados1.setOnClickListener {
+            val intent = Intent (this, ReservaVuelos::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".VuelosWingo"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="20dp"
+    android:background="@color/white"
+    >
+
+    <ImageButton
+        android:id="@+id/iconoAccount"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_account"
+        app:tint="@color/gray"
+        android:background="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/iconoPlanes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoAccount"
+        android:src="@drawable/ic_planesturisticos"
+        android:background="@android:color/white"
+        app:tint="@color/green"/>
+
+    <ImageButton
+        android:id="@+id/iconoMisViajes"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoPlanes"
+        android:src="@drawable/ic_trips"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoNotificaciones"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoMisViajes"
+        android:src="@drawable/ic_notifications"
+        android:background="@android:color/white"
+        app:tint="@color/gray"/>
+
+    <ImageButton
+        android:id="@+id/iconoHome"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/iconoNotificaciones"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_home"
+        app:tint="@color/gray"/>
+
+    <TextView
+        android:id="@+id/textFiltros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Reserva de vuelos"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_atras"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentStart="true"
+        />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/xButton"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Space
+        android:id="@+id/espacio"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/divider3"
+        />
+
+    <LinearLayout
+        android:id="@+id/opcionesPlanes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/espacio"
+        android:paddingBottom="6dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        >
+
+        <Button
+            android:id="@+id/buttonPlanesTuristicos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Bogotá - san José"
+            android:textColor="@color/blue"
+            android:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/buttonPersonalizaViaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="San José - Liberia"
+            android:backgroundTint="@color/blue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/filtros"
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:layout_below="@id/opcionesPlanes"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        >
+
+        <Button
+            android:id="@+id/ordenar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Ordenar"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/filtrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Filtrar"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/filtros"
+        android:layout_marginTop="1dp">
+
+        <RelativeLayout
+            android:id="@+id/primerPlan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:paddingBottom="10dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/imageLoc"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_wingo" />
+
+            <TextView
+                android:id="@+id/vuelo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:layout_toRightOf="@id/imageLoc"
+                android:text="Wingo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/destino1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/divider"
+                android:paddingStart="10dp"
+                android:text="19:00"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/desDestino1"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/destino1"
+                android:paddingStart="10dp"
+                android:text="Bogotá"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_toRightOf="@id/desDestino1"
+                android:layout_below="@id/tiempo"
+                android:text="Directo"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/destino2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/imageLoc"
+                android:layout_toRightOf="@id/tiempo"
+                android:paddingStart="10dp"
+                android:text="21:15"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desDestino2"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/destino2"
+                android:layout_toRightOf="@id/tiempo"
+                android:paddingStart="10dp"
+                android:text="San José"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/salida"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/divider"
+                android:layout_alignParentEnd="true"
+                android:paddingStart="10dp"
+                android:text="$112.5"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/salida"
+                android:layout_alignParentEnd="true"
+                android:paddingEnd="10dp"
+                android:text="(10 puntos)"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/imageLoc"
+                android:background="?android:attr/listDivider" />
+            />
+
+            <SeekBar
+                android:id="@+id/tiempo"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="96dp"
+                android:layout_height="39dp"
+                android:layout_below="@id/divider"
+                android:layout_toRightOf="@id/desDestino1"
+                android:max="2000"
+                android:progress="1000"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/segundoPlan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/primerPlan"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_border"
+            android:paddingBottom="8dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/imageLoc0"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_wingo" />
+
+            <TextView
+                android:id="@+id/vuelo11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:layout_toRightOf="@id/imageLoc0"
+                android:text="Wingo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/destino11"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/divider1"
+                android:paddingStart="10dp"
+                android:text="14:20"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/desDestino11"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/destino11"
+                android:paddingStart="10dp"
+                android:text="Bogotá"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/total1"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_toRightOf="@id/desDestino11"
+                android:layout_below="@id/tiempos"
+                android:text="1 escala"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/destino22"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/imageLoc0"
+                android:layout_toRightOf="@id/tiempos"
+                android:paddingStart="10dp"
+                android:text="8:20"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desDestino22"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/destino22"
+                android:layout_toRightOf="@id/tiempos"
+                android:paddingStart="10dp"
+                android:text="San José"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/salida1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/divider1"
+                android:layout_alignParentEnd="true"
+                android:paddingStart="10dp"
+                android:text="$100.5"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fecha1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/salida1"
+                android:layout_alignParentEnd="true"
+                android:paddingEnd="10dp"
+                android:text="(5 puntos)"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/fecha2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/fecha1"
+                android:layout_alignParentEnd="true"
+                android:paddingEnd="10dp"
+                android:text="Escala en Panamá"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/imageLoc0"
+                android:background="?android:attr/listDivider" />
+            />
+
+            <SeekBar
+                android:id="@+id/tiempos"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="96dp"
+                android:layout_height="39dp"
+                android:layout_below="@id/divider1"
+                android:layout_toRightOf="@id/desDestino11"
+                android:max="2000"
+                android:progress="500"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/tercerPlan"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/segundoPlan"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_border"
+            android:paddingBottom="8dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/imageLoc0_2"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:paddingStart="20dp"
+                app:srcCompat="@drawable/ic_wingo" />
+
+            <TextView
+                android:id="@+id/vuelo112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingStart="15dp"
+                android:layout_toRightOf="@id/imageLoc0_2"
+                android:text="Wingo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/destino11_2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/divider1_2"
+                android:paddingStart="10dp"
+                android:text="14:20"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/desDestino11_2"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/destino11_2"
+                android:paddingStart="10dp"
+                android:text="Bogotá"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/total1_2"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_toRightOf="@id/desDestino11_2"
+                android:layout_below="@id/tiempos_2"
+                android:text="1 escala"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/destino22_2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/imageLoc0_2"
+                android:layout_toRightOf="@id/tiempos_2"
+                android:paddingStart="10dp"
+                android:text="4:20"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desDestino22_2"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/destino22_2"
+                android:layout_toRightOf="@id/tiempos_2"
+                android:paddingStart="10dp"
+                android:text="San José"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/salida1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_below="@id/divider1_2"
+                android:layout_alignParentEnd="true"
+                android:paddingStart="10dp"
+                android:text="$80.5"
+                android:paddingEnd="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fecha1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/salida1_2"
+                android:layout_alignParentEnd="true"
+                android:paddingEnd="10dp"
+                android:text="(3 puntos)"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/fecha2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_below="@id/fecha1_2"
+                android:layout_alignParentEnd="true"
+                android:paddingEnd="10dp"
+                android:text="Escala en Panamá"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/divider1_2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/imageLoc0_2"
+                android:background="?android:attr/listDivider" />
+            />
+
+            <SeekBar
+                android:id="@+id/tiempos_2"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="96dp"
+                android:layout_height="39dp"
+                android:layout_below="@id/divider1_2"
+                android:layout_toRightOf="@id/desDestino11_2"
+                android:max="2000"
+                android:progress="500"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

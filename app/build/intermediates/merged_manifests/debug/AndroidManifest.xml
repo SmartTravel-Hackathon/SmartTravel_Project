@@ -28,6 +28,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hackaton" >
         <activity
+            android:name="com.example.hackaton.VuelosWingo"
+            android:exported="false"
+            android:theme="@style/Theme.Hackaton" />
+        <activity
+            android:name="com.example.hackaton.VuelosAvianca"
+            android:exported="false"
+            android:theme="@style/Theme.Hackaton" />
+        <activity
             android:name="com.example.hackaton.EstadisticaPorPlan"
             android:exported="false" />
         <activity
@@ -144,6 +152,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
