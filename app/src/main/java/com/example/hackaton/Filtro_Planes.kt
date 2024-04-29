@@ -42,6 +42,11 @@ class Filtro_Planes : AppCompatActivity() {
             limpiarRadioButtons()
         }
 
+        findViewById<TextView>(R.id.aplicar).setOnClickListener {
+            // Limpiar todos los RadioButtons
+            startActivity(Intent(this, PlanesTuristicos2::class.java))
+        }
+
     }
 
     private fun limpiarRadioButtons() {

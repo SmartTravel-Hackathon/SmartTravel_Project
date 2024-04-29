@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.12.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\d1e4a685b1001794fbcfe4ee9c157a7e\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:5:5-131:19
+17-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:5:5-134:19
 18        android:allowBackup="true"
 18-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,314 +44,320 @@
 29-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:13:9-46
 30        <activity
 30-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.example.hackaton.Detalles_Agencia_VeryLocalTrip"
-31-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:16:13-59
+31            android:name="com.example.hackaton.PlanesTuristicos2"
+31-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:16:13-46
 32            android:exported="false" />
 32-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
 33-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:18:9-20:40
-34            android:name="com.example.hackaton.Detalles_Agencia_FairVoyage"
-34-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:19:13-56
+34            android:name="com.example.hackaton.Detalles_Agencia_VeryLocalTrip"
+34-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:19:13-59
 35            android:exported="false" />
 35-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
-36-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:21:9-24:53
-37            android:name="com.example.hackaton.VuelosWingo"
-37-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:22:13-40
-38            android:exported="false"
+36-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.hackaton.Detalles_Agencia_FairVoyage"
+37-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:22:13-56
+38            android:exported="false" />
 38-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:23:13-37
-39            android:theme="@style/Theme.Hackaton" />
-39-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:24:13-50
-40        <activity
-40-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:25:9-28:53
-41            android:name="com.example.hackaton.VuelosAvianca"
-41-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:26:13-42
-42            android:exported="false"
-42-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:27:13-37
-43            android:theme="@style/Theme.Hackaton" />
-43-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:28:13-50
-44        <activity
-44-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:29:9-31:40
-45            android:name="com.example.hackaton.EstadisticaPorPlan"
-45-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:30:13-47
-46            android:exported="false" />
-46-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:31:13-37
+39        <activity
+39-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:24:9-27:53
+40            android:name="com.example.hackaton.VuelosWingo"
+40-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:25:13-40
+41            android:exported="false"
+41-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:26:13-37
+42            android:theme="@style/Theme.Hackaton" />
+42-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:27:13-50
+43        <activity
+43-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:28:9-31:53
+44            android:name="com.example.hackaton.VuelosAvianca"
+44-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:29:13-42
+45            android:exported="false"
+45-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:30:13-37
+46            android:theme="@style/Theme.Hackaton" />
+46-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:31:13-50
 47        <activity
 47-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:32:9-34:40
-48            android:name="com.example.hackaton.ReservaVuelos"
-48-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:33:13-42
+48            android:name="com.example.hackaton.EstadisticaPorPlan"
+48-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:33:13-47
 49            android:exported="false" />
 49-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:34:13-37
 50        <activity
 50-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:35:9-37:40
-51            android:name="com.example.hackaton.Viajes_Completados"
-51-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:36:13-47
+51            android:name="com.example.hackaton.ReservaVuelos"
+51-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:36:13-42
 52            android:exported="false" />
 52-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:37:13-37
 53        <activity
 53-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:38:9-40:40
-54            android:name="com.example.hackaton.Viajes"
-54-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:39:13-35
+54            android:name="com.example.hackaton.Viajes_Completados"
+54-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:39:13-47
 55            android:exported="false" />
 55-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:40:13-37
 56        <activity
 56-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:41:9-43:40
-57            android:name="com.example.hackaton.Puntos"
+57            android:name="com.example.hackaton.Viajes"
 57-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:42:13-35
 58            android:exported="false" />
 58-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:43:13-37
 59        <activity
 59-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:44:9-46:40
-60            android:name="com.example.hackaton.Perfil"
+60            android:name="com.example.hackaton.Puntos"
 60-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:45:13-35
 61            android:exported="false" />
 61-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:46:13-37
 62        <activity
 62-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:47:9-49:40
-63            android:name="com.example.hackaton.Notificaciones"
-63-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:48:13-43
+63            android:name="com.example.hackaton.Perfil"
+63-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:48:13-35
 64            android:exported="false" />
 64-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:49:13-37
 65        <activity
 65-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:50:9-52:40
-66            android:name="com.example.hackaton.Detalles_Pago"
-66-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:51:13-42
+66            android:name="com.example.hackaton.Notificaciones"
+66-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:51:13-43
 67            android:exported="false" />
 67-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:52:13-37
 68        <activity
 68-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:53:9-55:40
-69            android:name="com.example.hackaton.InformacionCuenta"
-69-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:54:13-46
+69            android:name="com.example.hackaton.Detalles_Pago"
+69-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:54:13-42
 70            android:exported="false" />
 70-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:55:13-37
 71        <activity
 71-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:56:9-58:40
-72            android:name="com.example.hackaton.VerPlanes"
-72-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:57:13-38
+72            android:name="com.example.hackaton.InformacionCuenta"
+72-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:57:13-46
 73            android:exported="false" />
 73-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:58:13-37
 74        <activity
 74-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:59:9-61:40
-75            android:name="com.example.hackaton.AgregarPlan"
-75-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:60:13-40
+75            android:name="com.example.hackaton.VerPlanes"
+75-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:60:13-38
 76            android:exported="false" />
 76-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:61:13-37
 77        <activity
 77-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:62:9-64:40
-78            android:name="com.example.hackaton.Estadisticas"
-78-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:63:13-41
+78            android:name="com.example.hackaton.AgregarPlan"
+78-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:63:13-40
 79            android:exported="false" />
 79-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:64:13-37
 80        <activity
 80-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:65:9-67:40
-81            android:name="com.example.hackaton.PersonalizarViaje"
-81-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:66:13-46
+81            android:name="com.example.hackaton.Estadisticas"
+81-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:66:13-41
 82            android:exported="false" />
 82-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:67:13-37
 83        <activity
 83-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:68:9-70:40
-84            android:name="com.example.hackaton.PlanesTuristicos"
-84-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:69:13-45
+84            android:name="com.example.hackaton.PersonalizarViaje"
+84-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:69:13-46
 85            android:exported="false" />
 85-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:70:13-37
 86        <activity
 86-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:71:9-73:40
-87            android:name="com.example.hackaton.Filtro_Planes"
-87-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:72:13-42
+87            android:name="com.example.hackaton.PlanesTuristicos"
+87-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:72:13-45
 88            android:exported="false" />
 88-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:73:13-37
 89        <activity
 89-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:74:9-76:40
-90            android:name="com.example.hackaton.HomeActivity"
-90-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:75:13-41
+90            android:name="com.example.hackaton.Filtro_Planes"
+90-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:75:13-42
 91            android:exported="false" />
 91-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:76:13-37
 92        <activity
 92-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:77:9-79:40
-93            android:name="com.example.hackaton.Inicio"
-93-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:78:13-35
+93            android:name="com.example.hackaton.HomeActivity"
+93-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:78:13-41
 94            android:exported="false" />
 94-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:79:13-37
 95        <activity
 95-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:80:9-82:40
-96            android:name="com.example.hackaton.Login"
-96-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:81:13-34
+96            android:name="com.example.hackaton.Inicio"
+96-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:81:13-35
 97            android:exported="false" />
 97-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:82:13-37
 98        <activity
 98-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:83:9-85:40
-99            android:name="com.example.hackaton.Pantalla_Carga"
-99-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:84:13-43
+99            android:name="com.example.hackaton.Login"
+99-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:84:13-34
 100            android:exported="false" />
 100-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:85:13-37
 101        <activity
 101-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:86:9-88:40
-102            android:name="com.example.hackaton.Registrarse_Agencia"
-102-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:87:13-48
+102            android:name="com.example.hackaton.Pantalla_Carga"
+102-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:87:13-43
 103            android:exported="false" />
 103-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:88:13-37
 104        <activity
 104-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:89:9-91:40
-105            android:name="com.example.hackaton.Registrarse_Turista"
+105            android:name="com.example.hackaton.Registrarse_Agencia"
 105-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:90:13-48
 106            android:exported="false" />
 106-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:91:13-37
 107        <activity
 107-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:92:9-94:40
-108            android:name="com.example.hackaton.Detalles_Agencia"
-108-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:93:13-45
+108            android:name="com.example.hackaton.Registrarse_Turista"
+108-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:93:13-48
 109            android:exported="false" />
 109-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:94:13-37
 110        <activity
 110-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:95:9-97:40
-111            android:name="com.example.hackaton.Reservar_Carro"
-111-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:96:13-43
+111            android:name="com.example.hackaton.Detalles_Agencia"
+111-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:96:13-45
 112            android:exported="false" />
 112-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:97:13-37
 113        <activity
 113-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:98:9-100:40
-114            android:name="com.example.hackaton.Datos_Viajero"
-114-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:99:13-42
+114            android:name="com.example.hackaton.Reservar_Carro"
+114-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:99:13-43
 115            android:exported="false" />
 115-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:100:13-37
 116        <activity
 116-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:101:9-103:40
-117            android:name="com.example.hackaton.Resumen_Reserva"
-117-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:102:13-44
+117            android:name="com.example.hackaton.Datos_Viajero"
+117-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:102:13-42
 118            android:exported="false" />
 118-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:103:13-37
 119        <activity
 119-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:104:9-106:40
-120            android:name="com.example.hackaton.Pagar"
-120-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:105:13-34
+120            android:name="com.example.hackaton.Resumen_Reserva"
+120-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:105:13-44
 121            android:exported="false" />
 121-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:106:13-37
 122        <activity
 122-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:107:9-109:40
-123            android:name="com.example.hackaton.Pantalla_Carga2"
-123-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:108:13-44
+123            android:name="com.example.hackaton.Pagar"
+123-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:108:13-34
 124            android:exported="false" />
 124-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:109:13-37
 125        <activity
 125-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:110:9-112:40
-126            android:name="com.example.hackaton.Reserva_Restaurantes"
-126-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:111:13-49
+126            android:name="com.example.hackaton.Pantalla_Carga2"
+126-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:111:13-44
 127            android:exported="false" />
 127-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:112:13-37
 128        <activity
 128-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:113:9-115:40
-129            android:name="com.example.hackaton.Reserva_Hoteles"
-129-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:114:13-44
+129            android:name="com.example.hackaton.Reserva_Restaurantes"
+129-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:114:13-49
 130            android:exported="false" />
 130-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:115:13-37
 131        <activity
 131-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:116:9-118:40
-132            android:name="com.example.hackaton.Ordenar_Por"
-132-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:117:13-40
+132            android:name="com.example.hackaton.Reserva_Hoteles"
+132-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:117:13-44
 133            android:exported="false" />
 133-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:118:13-37
 134        <activity
 134-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:119:9-121:40
-135            android:name="com.example.hackaton.Filtro_Vuelos"
-135-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:120:13-42
+135            android:name="com.example.hackaton.Ordenar_Por"
+135-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:120:13-40
 136            android:exported="false" />
 136-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:121:13-37
 137        <activity
-137-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:122:9-130:20
-138            android:name="com.example.hackaton.MainActivity"
-138-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:123:13-41
-139            android:exported="true" >
-139-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:124:13-36
-140            <intent-filter>
-140-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:125:13-129:29
-141                <action android:name="android.intent.action.MAIN" />
-141-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:126:17-69
-141-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:126:25-66
-142
-143                <category android:name="android.intent.category.LAUNCHER" />
-143-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:128:17-77
-143-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:128:27-74
-144            </intent-filter>
-145        </activity>
-146
-147        <provider
-147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-148            android:name="androidx.startup.InitializationProvider"
-148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-149            android:authorities="com.example.hackaton.androidx-startup"
-149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-150            android:exported="false" >
-150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-151            <meta-data
-151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-152                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-153                android:value="androidx.startup" />
-153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+137-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:122:9-124:40
+138            android:name="com.example.hackaton.Filtro_Vuelos"
+138-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:123:13-42
+139            android:exported="false" />
+139-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:124:13-37
+140        <activity
+140-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:125:9-133:20
+141            android:name="com.example.hackaton.MainActivity"
+141-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:126:13-41
+142            android:exported="true" >
+142-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:127:13-36
+143            <intent-filter>
+143-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:128:13-132:29
+144                <action android:name="android.intent.action.MAIN" />
+144-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:129:17-69
+144-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:129:25-66
+145
+146                <category android:name="android.intent.category.LAUNCHER" />
+146-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:131:17-77
+146-->C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:131:27-74
+147            </intent-filter>
+148        </activity>
+149
+150        <provider
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+151            android:name="androidx.startup.InitializationProvider"
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+152            android:authorities="com.example.hackaton.androidx-startup"
+152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+153            android:exported="false" >
+153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 154            <meta-data
-154-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\f96262b739e7235dd07a97d871a1b1da\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-155                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-155-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\f96262b739e7235dd07a97d871a1b1da\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+154-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+155                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 156                android:value="androidx.startup" />
-156-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\f96262b739e7235dd07a97d871a1b1da\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 157            <meta-data
-157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-158                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+157-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\f96262b739e7235dd07a97d871a1b1da\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+158                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\f96262b739e7235dd07a97d871a1b1da\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
 159                android:value="androidx.startup" />
-159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-160        </provider>
-161
-162        <uses-library
-162-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-163            android:name="androidx.window.extensions"
-163-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-164            android:required="false" />
-164-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+159-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\f96262b739e7235dd07a97d871a1b1da\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+160            <meta-data
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+161                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+162                android:value="androidx.startup" />
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+163        </provider>
+164
 165        <uses-library
-165-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-166            android:name="androidx.window.sidecar"
-166-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+165-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+166            android:name="androidx.window.extensions"
+166-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 167            android:required="false" />
-167-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-168
-169        <receiver
-169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-170            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-171            android:directBootAware="false"
-171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-172            android:enabled="true"
-172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-173            android:exported="true"
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-174            android:permission="android.permission.DUMP" >
-174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-175            <intent-filter>
-175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-176                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-177            </intent-filter>
+167-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+168        <uses-library
+168-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+169            android:name="androidx.window.sidecar"
+169-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+170            android:required="false" />
+170-->[androidx.window:window:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\108abe6471b017e5481657b16c1015d6\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+171
+172        <receiver
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+173            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+174            android:directBootAware="false"
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+175            android:enabled="true"
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+176            android:exported="true"
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+177            android:permission="android.permission.DUMP" >
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 178            <intent-filter>
-178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-179                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+179                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 180            </intent-filter>
 181            <intent-filter>
-181-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-182                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+182                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 183            </intent-filter>
 184            <intent-filter>
-184-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-185                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+185                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 186            </intent-filter>
-187        </receiver>
-188    </application>
-189
-190</manifest>
+187            <intent-filter>
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+188                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+189            </intent-filter>
+190        </receiver>
+191    </application>
+192
+193</manifest>

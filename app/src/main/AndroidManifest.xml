@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Hackaton"
         tools:targetApi="31">
         <activity
+            android:name=".PlanesTuristicos2"
+            android:exported="false" />
+        <activity
             android:name=".Detalles_Agencia_VeryLocalTrip"
             android:exported="false" />
         <activity

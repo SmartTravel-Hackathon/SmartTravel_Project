@@ -3326,6 +3326,7 @@ id animateToStart
 id antesButton
 id antiClockwise
 id anticipate
+id aplicar
 id arc
 id asConfigured
 id async
@@ -4341,6 +4342,7 @@ layout activity_ordenar_por
 layout activity_perfil
 layout activity_personalizar_viaje
 layout activity_planes_turisticos
+layout activity_planes_turisticos2
 layout activity_puntos
 layout activity_reserva_hoteles
 layout activity_reserva_restaurantes

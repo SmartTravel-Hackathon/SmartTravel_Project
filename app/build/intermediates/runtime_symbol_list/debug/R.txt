@@ -3325,6 +3325,7 @@ int id animateToStart 0x7f090069
 int id antesButton 0x7f09006a
 int id antiClockwise 0x7f09006b
 int id anticipate 0x7f09006c
+int id aplicar 0x7f0903ea
 int id arc 0x7f09006d
 int id asConfigured 0x7f09006e
 int id async 0x7f09006f
@@ -4340,6 +4341,7 @@ int layout activity_ordenar_por 0x7f0c0027
 int layout activity_perfil 0x7f0c0028
 int layout activity_personalizar_viaje 0x7f0c0029
 int layout activity_planes_turisticos 0x7f0c002a
+int layout activity_planes_turisticos2 0x7f0c0093
 int layout activity_puntos 0x7f0c002b
 int layout activity_reserva_hoteles 0x7f0c002c
 int layout activity_reserva_restaurantes 0x7f0c002d

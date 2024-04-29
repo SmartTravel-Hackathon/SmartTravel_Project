@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.example.hackaton.app-merged_res-47:/drawable_verylocaltrip4.jpg.flat",
-        "source": "com.example.hackaton.app-main-49:/drawable/verylocaltrip4.jpg"
-    },
-    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_ic_filtro.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\ic_filtro.xml"
     },
@@ -44,12 +40,12 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\botones_redondos.xml"
     },
     {
-        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_hotel4.png.flat",
-        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\hotel4.png"
-    },
-    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_hotel4.png.flat",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\hotel4.png"
     },
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\layout_content_vuelos_wingo.xml.flat",
@@ -68,10 +64,6 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_filtro_planes.xml"
     },
     {
-        "merged": "com.example.hackaton.app-merged_res-47:/drawable_verylocaltrip3.jpg.flat",
-        "source": "com.example.hackaton.app-main-49:/drawable/verylocaltrip3.jpg"
-    },
-    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_ic_avion.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\ic_avion.xml"
     },
@@ -84,12 +76,12 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\pantalla_carga2.xml"
     },
     {
-        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_agencia1.png.flat",
-        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\agencia1.png"
-    },
-    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_tourcol.png.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\tourcol.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_agencia1.png.flat",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\agencia1.png"
     },
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\layout_activity_estadistica_por_plan.xml.flat",
@@ -148,6 +140,10 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\ic_wingo.jpg"
     },
     {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_verylocaltrip4.jpg.flat",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\verylocaltrip4.jpg"
+    },
+    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\layout_activity_detalles_pago.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_detalles_pago.xml"
     },
@@ -170,10 +166,6 @@
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_ic_restaurantes.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\ic_restaurantes.xml"
-    },
-    {
-        "merged": "com.example.hackaton.app-merged_res-47:/layout_activity_detalles_agencia_very_local_trip.xml.flat",
-        "source": "com.example.hackaton.app-main-49:/layout/activity_detalles_agencia_very_local_trip.xml"
     },
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -200,8 +192,8 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\carga.png"
     },
     {
-        "merged": "com.example.hackaton.app-merged_res-47:/drawable_verylocaltrip2.jpg.flat",
-        "source": "com.example.hackaton.app-main-49:/drawable/verylocaltrip2.jpg"
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_verylocaltrip1.jpeg.flat",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\verylocaltrip1.jpeg"
     },
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_ic_planesturisticos.xml.flat",
@@ -244,6 +236,10 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\hotel7.png"
     },
     {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\layout_activity_detalles_agencia_very_local_trip.xml.flat",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_detalles_agencia_very_local_trip.xml"
+    },
+    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -268,6 +264,10 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_vuelos_wingo.xml"
     },
     {
+        "merged": "com.example.hackaton.app-merged_res-47:/layout_activity_planes_turisticos2.xml.flat",
+        "source": "com.example.hackaton.app-main-49:/layout/activity_planes_turisticos2.xml"
+    },
+    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\layout_activity_reserva_vuelos.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_reserva_vuelos.xml"
     },
@@ -282,6 +282,10 @@
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_ic_planes.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\ic_planes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_verylocaltrip2.jpg.flat",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\verylocaltrip2.jpg"
     },
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\layout_pagar.xml.flat",
@@ -368,10 +372,6 @@
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\ic_latam.png"
     },
     {
-        "merged": "com.example.hackaton.app-merged_res-47:/drawable_verylocaltrip1.jpeg.flat",
-        "source": "com.example.hackaton.app-main-49:/drawable/verylocaltrip1.jpeg"
-    },
-    {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\navigation_nav_graph2.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\navigation\\nav_graph2.xml"
     },
@@ -386,6 +386,10 @@
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_hotbog1.png.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\hotbog1.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_verylocaltrip3.jpg.flat",
+        "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\drawable\\verylocaltrip3.jpg"
     },
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -454,6 +458,10 @@
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\layout_activity_home.xml.flat",
         "source": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-main-49:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "com.example.hackaton.app-merged_res-47:/layout_activity_filtro_planes.xml.flat",
+        "source": "com.example.hackaton.app-main-49:/layout/activity_filtro_planes.xml"
     },
     {
         "merged": "C:\\Users\\Luis Alejandro\\.gradle\\daemon\\8.2\\com.example.hackaton.app-merged_res-47:\\drawable_flecha.png.flat",

@@ -38,6 +38,9 @@ public final class ActivityFiltroPlanesBinding implements ViewBinding {
   public final TextView actividadeseIntereses;
 
   @NonNull
+  public final TextView aplicar;
+
+  @NonNull
   public final RadioButton aventuraButton;
 
   @NonNull
@@ -85,9 +88,9 @@ public final class ActivityFiltroPlanesBinding implements ViewBinding {
   private ActivityFiltroPlanesBinding(@NonNull RelativeLayout rootView,
       @NonNull TextView Clasificaciones, @NonNull RadioButton EstudiantesButton,
       @NonNull RadioButton FamiliasButton, @NonNull RadioButton NegociosButton,
-      @NonNull TextView actividadeseIntereses, @NonNull RadioButton aventuraButton,
-      @NonNull TextView clases, @NonNull View divider3, @NonNull View divider4,
-      @NonNull RadioButton e3Button, @NonNull RadioButton e4Button,
+      @NonNull TextView actividadeseIntereses, @NonNull TextView aplicar,
+      @NonNull RadioButton aventuraButton, @NonNull TextView clases, @NonNull View divider3,
+      @NonNull View divider4, @NonNull RadioButton e3Button, @NonNull RadioButton e4Button,
       @NonNull RelativeLayout filtroPlanes, @NonNull RelativeLayout filtros,
       @NonNull TextView limpiar, @NonNull SeekBar precios, @NonNull TextView rangoPrecios,
       @NonNull TextView textFiltros, @NonNull RadioButton turisticosButton,
@@ -98,6 +101,7 @@ public final class ActivityFiltroPlanesBinding implements ViewBinding {
     this.FamiliasButton = FamiliasButton;
     this.NegociosButton = NegociosButton;
     this.actividadeseIntereses = actividadeseIntereses;
+    this.aplicar = aplicar;
     this.aventuraButton = aventuraButton;
     this.clases = clases;
     this.divider3 = divider3;
@@ -169,6 +173,12 @@ public final class ActivityFiltroPlanesBinding implements ViewBinding {
       id = R.id.actividadeseIntereses;
       TextView actividadeseIntereses = ViewBindings.findChildViewById(rootView, id);
       if (actividadeseIntereses == null) {
+        break missingId;
+      }
+
+      id = R.id.aplicar;
+      TextView aplicar = ViewBindings.findChildViewById(rootView, id);
+      if (aplicar == null) {
         break missingId;
       }
 
@@ -259,9 +269,9 @@ public final class ActivityFiltroPlanesBinding implements ViewBinding {
       }
 
       return new ActivityFiltroPlanesBinding((RelativeLayout) rootView, Clasificaciones,
-          EstudiantesButton, FamiliasButton, NegociosButton, actividadeseIntereses, aventuraButton,
-          clases, divider3, divider4, e3Button, e4Button, filtroPlanes, filtros, limpiar, precios,
-          rangoPrecios, textFiltros, turisticosButton, valorSeekBar, xButton);
+          EstudiantesButton, FamiliasButton, NegociosButton, actividadeseIntereses, aplicar,
+          aventuraButton, clases, divider3, divider4, e3Button, e4Button, filtroPlanes, filtros,
+          limpiar, precios, rangoPrecios, textFiltros, turisticosButton, valorSeekBar, xButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

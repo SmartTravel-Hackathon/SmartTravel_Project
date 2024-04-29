@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-133:12
-INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-133:12
-INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-133:12
-INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-133:12
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-136:12
+INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:1-136:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\d64262d30dfd028fefb0db007e75e64f\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\f200908b815b7ed9fd4773d7155955ab\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\ceb3b630dc82b5cf6d5c1e6750dc4d22\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -73,8 +73,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Luis Alejandro\.gradle\caches\
 	xmlns:android
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:5:5-131:19
-INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:5:5-131:19
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:5:5-134:19
+INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:5:5-134:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\56af212e940d1f2bde023f0cf7bfa9c5\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\56af212e940d1f2bde023f0cf7bfa9c5\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Luis Alejandro\.gradle\caches\transforms-3\a1c5e08825da8b3508fd7a457a086ebc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -115,236 +115,242 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Lu
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:13:9-46
 	android:dataExtractionRules
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.hackaton.Detalles_Agencia_VeryLocalTrip
+activity#com.example.hackaton.PlanesTuristicos2
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:16:13-59
-activity#com.example.hackaton.Detalles_Agencia_FairVoyage
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:16:13-46
+activity#com.example.hackaton.Detalles_Agencia_VeryLocalTrip
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:19:13-56
-activity#com.example.hackaton.VuelosWingo
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:21:9-24:53
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:19:13-59
+activity#com.example.hackaton.Detalles_Agencia_FairVoyage
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:23:13-37
-	android:theme
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:24:13-50
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:22:13-40
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:22:13-56
+activity#com.example.hackaton.VuelosWingo
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:24:9-27:53
+	android:exported
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:27:13-50
+	android:name
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:25:13-40
 activity#com.example.hackaton.VuelosAvianca
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:25:9-28:53
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:28:9-31:53
 	android:exported
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:30:13-37
 	android:theme
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:28:13-50
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:29:13-42
 activity#com.example.hackaton.EstadisticaPorPlan
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:29:9-31:40
-	android:exported
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:30:13-47
-activity#com.example.hackaton.ReservaVuelos
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:33:13-42
-activity#com.example.hackaton.Viajes_Completados
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:33:13-47
+activity#com.example.hackaton.ReservaVuelos
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:36:13-47
-activity#com.example.hackaton.Viajes
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:36:13-42
+activity#com.example.hackaton.Viajes_Completados
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:39:13-35
-activity#com.example.hackaton.Puntos
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:39:13-47
+activity#com.example.hackaton.Viajes
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:42:13-35
-activity#com.example.hackaton.Perfil
+activity#com.example.hackaton.Puntos
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:45:13-35
-activity#com.example.hackaton.Notificaciones
+activity#com.example.hackaton.Perfil
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:48:13-43
-activity#com.example.hackaton.Detalles_Pago
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:48:13-35
+activity#com.example.hackaton.Notificaciones
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:51:13-42
-activity#com.example.hackaton.InformacionCuenta
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:51:13-43
+activity#com.example.hackaton.Detalles_Pago
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:54:13-46
-activity#com.example.hackaton.VerPlanes
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:54:13-42
+activity#com.example.hackaton.InformacionCuenta
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:57:13-38
-activity#com.example.hackaton.AgregarPlan
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:57:13-46
+activity#com.example.hackaton.VerPlanes
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:60:13-40
-activity#com.example.hackaton.Estadisticas
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:60:13-38
+activity#com.example.hackaton.AgregarPlan
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:62:9-64:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:63:13-41
-activity#com.example.hackaton.PersonalizarViaje
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:63:13-40
+activity#com.example.hackaton.Estadisticas
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:65:9-67:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:66:13-46
-activity#com.example.hackaton.PlanesTuristicos
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:66:13-41
+activity#com.example.hackaton.PersonalizarViaje
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:68:9-70:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:70:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:69:13-45
-activity#com.example.hackaton.Filtro_Planes
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:69:13-46
+activity#com.example.hackaton.PlanesTuristicos
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:71:9-73:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:72:13-42
-activity#com.example.hackaton.HomeActivity
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:72:13-45
+activity#com.example.hackaton.Filtro_Planes
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:74:9-76:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:76:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:75:13-41
-activity#com.example.hackaton.Inicio
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:75:13-42
+activity#com.example.hackaton.HomeActivity
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:77:9-79:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:79:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:78:13-35
-activity#com.example.hackaton.Login
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:78:13-41
+activity#com.example.hackaton.Inicio
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:80:9-82:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:81:13-34
-activity#com.example.hackaton.Pantalla_Carga
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:81:13-35
+activity#com.example.hackaton.Login
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:83:9-85:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:85:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:84:13-43
-activity#com.example.hackaton.Registrarse_Agencia
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:84:13-34
+activity#com.example.hackaton.Pantalla_Carga
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:86:9-88:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:87:13-48
-activity#com.example.hackaton.Registrarse_Turista
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:87:13-43
+activity#com.example.hackaton.Registrarse_Agencia
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:89:9-91:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:91:13-37
 	android:name
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:90:13-48
-activity#com.example.hackaton.Detalles_Agencia
+activity#com.example.hackaton.Registrarse_Turista
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:92:9-94:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:94:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:93:13-45
-activity#com.example.hackaton.Reservar_Carro
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:93:13-48
+activity#com.example.hackaton.Detalles_Agencia
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:95:9-97:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:97:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:96:13-43
-activity#com.example.hackaton.Datos_Viajero
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:96:13-45
+activity#com.example.hackaton.Reservar_Carro
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:98:9-100:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:100:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:99:13-42
-activity#com.example.hackaton.Resumen_Reserva
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:99:13-43
+activity#com.example.hackaton.Datos_Viajero
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:101:9-103:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:103:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:102:13-44
-activity#com.example.hackaton.Pagar
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:102:13-42
+activity#com.example.hackaton.Resumen_Reserva
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:104:9-106:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:106:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:105:13-34
-activity#com.example.hackaton.Pantalla_Carga2
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:105:13-44
+activity#com.example.hackaton.Pagar
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:107:9-109:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:109:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:108:13-44
-activity#com.example.hackaton.Reserva_Restaurantes
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:108:13-34
+activity#com.example.hackaton.Pantalla_Carga2
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:110:9-112:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:112:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:111:13-49
-activity#com.example.hackaton.Reserva_Hoteles
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:111:13-44
+activity#com.example.hackaton.Reserva_Restaurantes
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:113:9-115:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:115:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:114:13-44
-activity#com.example.hackaton.Ordenar_Por
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:114:13-49
+activity#com.example.hackaton.Reserva_Hoteles
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:116:9-118:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:118:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:117:13-40
-activity#com.example.hackaton.Filtro_Vuelos
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:117:13-44
+activity#com.example.hackaton.Ordenar_Por
 ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:119:9-121:40
 	android:exported
 		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:121:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:120:13-42
-activity#com.example.hackaton.MainActivity
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:122:9-130:20
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:120:13-40
+activity#com.example.hackaton.Filtro_Vuelos
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:122:9-124:40
 	android:exported
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:124:13-36
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:124:13-37
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:123:13-41
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:123:13-42
+activity#com.example.hackaton.MainActivity
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:125:9-133:20
+	android:exported
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:127:13-36
+	android:name
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:126:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:125:13-129:29
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:128:13-132:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:126:17-69
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:129:17-69
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:126:25-66
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:129:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:128:17-77
+ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:131:17-77
 	android:name
-		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:128:27-74
+		ADDED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml:131:27-74
 uses-sdk
 INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Luis Alejandro\Desktop\SmartTravel_Project\app\src\main\AndroidManifest.xml

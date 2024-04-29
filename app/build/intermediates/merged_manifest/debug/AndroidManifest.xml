@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hackaton" >
         <activity
+            android:name="com.example.hackaton.PlanesTuristicos2"
+            android:exported="false" />
+        <activity
             android:name="com.example.hackaton.Detalles_Agencia_VeryLocalTrip"
             android:exported="false" />
         <activity
