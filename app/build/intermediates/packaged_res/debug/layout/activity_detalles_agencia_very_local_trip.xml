@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".Detalles_Agencia_VeryLocalTrip">
+
+    <TextView
+        android:id="@+id/textDetAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingBottom="30dp"
+        android:text="@string/DetallesAgencia"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/xButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/x" />
+
+    <TextView
+        android:id="@+id/textAgencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDetAge"
+        android:paddingEnd="5dp"
+        android:text="Very Local Trip"
+        android:textSize="30sp"
+        android:textColor="@color/green"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAgencia"
+        android:text="Avenida 21 # 23-1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDireccion"
+        android:paddingBottom="30dp"
+        android:text="@string/CostaRica"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/detaAgencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPais"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:text="Very Local Trip es una agencia de ecuturismo localizada en Costa Rica."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/detaAgencia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detaAgencia"
+        android:paddingBottom="20dp"
+        android:textColor="@color/black"
+        android:text="¡Descubre nuestras aventuras eco-conscientes, diseñadas para los amantes de la naturaleza y la sostenibilidad! Explora nuestros bellos pueblos y sumérgete en experiencias únicas que resaltan la belleza del entorno natural mientras cuidamos nuestro planeta. ¡Únete a nosotros y vive el ecoturismo de una manera completamente nueva!"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageAgencia1"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/detaAgencia2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/verylocaltrip3" />
+
+    <ImageView
+        android:id="@+id/imageAgencia1.2"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/detaAgencia2"
+        android:layout_toRightOf="@id/imageAgencia1"
+        android:paddingStart="8dp"
+        android:paddingBottom="4dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/verylocaltrip1" />
+
+    <ImageView
+        android:id="@+id/imageAgencia1.3"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageAgencia1.2"
+        android:layout_toRightOf="@id/imageAgencia1"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/verylocaltrip2" />
+
+    <ImageView
+        android:id="@+id/imageAgencia1.4"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/verylocaltrip4"
+        android:layout_below="@id/detaAgencia2"
+        android:layout_toRightOf="@id/imageAgencia1.2"
+        android:paddingStart="8dp"
+        android:paddingBottom="4dp"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/imageHotel1.5"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageAgencia1.4"
+        android:layout_toRightOf="@id/imageAgencia1.3"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/agencia5" />
+
+    <TextView
+        android:id="@+id/detaAgencia3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageAgencia1"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:text="Estos son algunos de los destinos que puedes agendar con Very Local Trip"
+        android:textSize="18sp" />
+
+</RelativeLayout>

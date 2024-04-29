@@ -3055,6 +3055,9 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable det1
 drawable det2
+drawable ecoturismopetfriendly_1
+drawable ecoturismopetfriendly_2
+drawable ecoturismopetfriendly_3
 drawable flecha
 drawable flechapago
 drawable fondo
@@ -3205,6 +3208,10 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable tourcol
 drawable tourcr
+drawable verylocaltrip1
+drawable verylocaltrip2
+drawable verylocaltrip3
+drawable verylocaltrip4
 drawable x
 id ALT
 id BOTTOM_END
@@ -4319,6 +4326,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_agregar_plan
 layout activity_detalles_agencia
+layout activity_detalles_agencia_fair_voyage
+layout activity_detalles_agencia_very_local_trip
 layout activity_detalles_pago
 layout activity_estadistica_por_plan
 layout activity_estadisticas

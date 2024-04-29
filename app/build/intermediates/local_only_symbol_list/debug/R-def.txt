@@ -28,6 +28,9 @@ drawable cielo
 drawable configuracion_icono
 drawable det1
 drawable det2
+drawable ecoturismopetfriendly_1
+drawable ecoturismopetfriendly_2
+drawable ecoturismopetfriendly_3
 drawable flecha
 drawable flechapago
 drawable fondo
@@ -85,6 +88,10 @@ drawable restaurante8
 drawable restaurante9
 drawable tourcol
 drawable tourcr
+drawable verylocaltrip1
+drawable verylocaltrip2
+drawable verylocaltrip3
+drawable verylocaltrip4
 drawable x
 id Buttonx1
 id Buttonx3
@@ -582,6 +589,8 @@ id wingoButton
 id xButton
 layout activity_agregar_plan
 layout activity_detalles_agencia
+layout activity_detalles_agencia_fair_voyage
+layout activity_detalles_agencia_very_local_trip
 layout activity_detalles_pago
 layout activity_estadistica_por_plan
 layout activity_estadisticas

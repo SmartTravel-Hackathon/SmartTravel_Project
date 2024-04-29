@@ -53,6 +53,14 @@ class HomeActivity : AppCompatActivity() {
         findViewById<Button>(R.id.agencia1).setOnClickListener {
             startActivity(Intent(this, Detalles_Agencia::class.java))
         }
+        findViewById<Button>(R.id.agencia2).setOnClickListener {
+            startActivity(Intent(this, Detalles_Agencia_FairVoyage::class.java))
+        }
+        findViewById<Button>(R.id.agencia3).setOnClickListener {
+            startActivity(Intent(this, Detalles_Agencia_VeryLocalTrip::class.java))
+        }
+
+
     }
 
 }
