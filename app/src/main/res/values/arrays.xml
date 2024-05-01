@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="moneda">
+        <item>Dólares</item>
+        <item>Pesos colombianos</item>
+        <item>Colón costarricense</item>
+    </string-array>
+</resources>

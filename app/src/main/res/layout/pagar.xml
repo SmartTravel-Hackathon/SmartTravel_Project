@@ -45,9 +45,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textViewPagar"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="100.00 USD"
         android:layout_alignParentEnd="true"/>
+
+    <Spinner
+        android:id="@+id/spinnerCambioMoneda"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/textViewValorDinero"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/blue"
+        android:entries="@array/moneda"
+        />
+
+
 
     <!-- Espacio entre Valor Total y Método de Pago -->
     <View
